@@ -1,0 +1,448 @@
+apply cross validation,Accuracy
+return accuracy,Accuracy
+show accuracy,Accuracy
+calculate accuracy,Accuracy
+print accuracy,Accuracy
+use test data to find accuracy,Accuracy
+apply test set to model and obtain the accuracy,Accuracy
+obtain the accuracy by using validation set,Accuracy
+find accuracy and assign it in to variable named accuracy,Accuracy
+predict class for test data and return accuracy,Accuracy
+predict class for validation set,Accuracy
+define variable predictions and predict clf for X_test,Accuracy
+use X_test to find accuracy,Accuracy
+define variable predictions and predict clf for X_test,Accuracy
+assign 78.56 to pt,Assign value to float variable
+assign 567.045 to variable def,Assign value to float variable
+define variable T and assign 0.84,Assign value to float variable
+define a float variable called burnable and assign 56.89 as value,Assign value to float variable
+depth = 27.245,Assign value to float variable
+average is 45.68,Assign value to float variable
+create a float variable named rainfall and assign 5.64 to it,Assign value to float variable
+goodness is a variable with value 4.4852,Assign value to float variable
+value of rain is 78.2,Assign value to float variable
+substitute decimal 5.5648 to variable count,Assign value to float variable
+assign value 8.95 to double variable my_val,Assign value to float variable
+winning_rate is a double variable which has value 4.00564,Assign value to float variable
+assign 78 to pt,Assign value to integer variable
+no_of_wins is a int variable which has value 4,Assign value to integer variable
+assign 545 to variable def,Assign value to integer variable
+define an integer variable called burnable and assign 88 as value,Assign value to integer variable
+define variable T and assign 48,Assign value to integer variable
+resolution = 487,Assign value to integer variable
+equity is equals to 67,Assign value to integer variable
+create an int variable named rainfall and assign 64 to it,Assign value to integer variable
+goodness is a variable with value 4,Assign value to integer variable
+value of tip is 8,Assign value to integer variable
+assign 3 to integer variable happiness,Assign value to integer variable
+"declare Integer variable named as number, 294,549,560 as value of the variable",Assign value to integer variable
+substitute string 'nice' to variable str,Assign value to string variable
+assign 'hello df' to string variable hello,Assign value to string variable
+goodness is a variable with value 'any string',Assign value to string variable
+equity_name is equals to 'some name',Assign value to string variable
+define variable phase and assign 'hello world'.,Assign value to string variable
+define a string variable called some_string and assign 'your name' as value,Assign value to string variable
+assign 'Usha' to string variable long_string,Assign value to string variable
+value of string variable name is 'Yilokyr',Assign value to string variable
+create a string variable named str and append 'My Name' to str,Assign value to string variable
+my_string = 'my name is R',Assign value to string variable
+define variable pepper,Define a variable
+allocate memory to variable length,Define a variable
+define a variable named uft,Define a variable
+define an integer variable named weight,Define a variable
+define a floating point variable named weight,Define a variable
+define a string variable named weight,Define a variable
+initialize a variable as any_name,Define a variable
+my_height is a null variable,Define a variable
+create a variable named tizzle,Define a variable
+create variable d,Define a variable
+declare an empty variable with the name validity,Define a variable
+create list e,Define an array
+create a list named tizzle,Define an array
+my_height is a empty list,Define an array
+initialize a list as any_name,Define an array
+define a string list named weights,Define an array
+define a floating point list named weight,Define an array
+define an integer list named weights,Define an array
+define a list named uft,Define an array
+allocate memory to list fruits,Define an array
+define list pepper,Define an array
+create array basic_array,Define an array
+create an array named tizzle,Define an array
+create a list named tizzle,Define an array
+my_height is a null array,Define an array
+define a string array named weight,Define an array
+define a floating point array named weight,Define an array
+define an integer array named weight_list,Define an array
+define an empty array named uft,Define an array
+allocate memory to array my_array,Define an array
+define array pep,Define an array
+associate Python to train the ML model,Define Language
+write the source code by using R,Define Language
+language = python,Define Language
+language is R,Define Language
+use R as the language,Define Language
+build model using python,Define Language
+preferred programming language = C,Define Language
+k value in KNN is 45,Define K in KNN
+value of k = 4,Define K in KNN
+assign 5 to K,Define K in KNN
+K = 2,Define K in KNN
+k is 3,Define K in KNN
+N is 7,Define K in KNN
+N = 4,Define K in KNN
+consider 10 neighbors,Define K in KNN
+No of neighbors = 5,Define K in KNN
+classify using regression,Define Algorithm
+classifier is LinearSVC,Define Algorithm
+clf = Logistic Regression,Define Algorithm
+classify data frame using MultinomialNB,Define Algorithm
+import KNN,Define Algorithm
+Algorithm = DTC,Define Algorithm
+Apply K-Means,Define Algorithm
+use KNN classifiction,Define Algorithm
+By applying support vector machine,Define Algorithm
+use ANN,Define Algorithm
+train the model using Neural Network,Define Algorithm
+build model by applying Random Forrest,Define Algorithm
+clustering algorithm is K-means,Define Algorithm
+use Decision Tree classifier to learn the mode,Define Algorithm
+define variable target_class and assign TARGET_CLASS,Define Class
+define my_class as class,Define Class
+class = rating_text,Define Class
+class rating_text,Define Class
+class attribute = currency,Define Class
+ground truth = pass,Define Class
+use raining as class,Define Class
+class is SL_win,Define Class
+class = play_golf,Define Class
+take my_class as the class,Define Class
+define variable clf and classify X_train y_train using Algorithm,Define Class
+from data_frame_library,Define data manipulation library
+import Pandas,Define data manipulation library
+import data manipulation library,Define data manipulation library
+By using Pandas,Define data manipulation library
+I want to use a data manipulation library,Define data manipulation library
+use data manipulation library,Define data manipulation library
+import data frame generator,Define data manipulation library
+import Pandas as pd,Define data manipulation library
+use data frame handler,Define data manipulation library
+use Pandas or similar kind of library,Define data manipulation library
+import library dataframe,Define data manipulation library
+Use inbuilt array operator,Define multidimensional array operator
+By using multidimensional array,Define multidimensional array operator
+import Numpy,Define multidimensional array operator
+using multidimensional array operator,Define multidimensional array operator
+use array organizer,Define multidimensional array operator
+import similar library to Numpy,Define multidimensional array operator
+import library multidimensional array,Define multidimensional array operator
+"columns to be dropped = findex2, findex9",Drop columns
+drop findex2,Drop columns
+"ignore 4444, findex1, findex2, findex9 columns",Drop columns
+remove 9999 column,Drop columns
+"drop columns 9999, 4444",Drop columns
+drop column 9999dr,Drop columns
+"delete column1, column4 and column6",Drop columns
+"not consider price, sales",Drop columns
+"features to be ignored = weight, height, length",Drop columns
+not use distance and velocity for train the model,Drop columns
+eliminate column1 and column2 from data set,Drop columns
+"hide attribute 1, attribute 2, attribute 3 , attribute 4 and attribute 5 from learning",Drop columns
+columns to be dropped = findex2 to findex9,Drop columns
+drop features in range of column3 and column5,Drop columns - Range
+ignore attributes from attribute1 to attribute7,Drop columns - Range
+remove column 1 to column 7,Drop columns - Range
+"drop columns, 9999 to 4444",Drop columns - Range
+drop columns in between name and sales,Drop columns - Range
+delete all attributes between column1 and column5,Drop columns - Range
+not consider feature 1 to feature 10,Drop columns - Range
+features to be ignored = weight - length,Drop columns - Range
+hide feature 1 to feature 5 from model learning,Drop columns - Range
+"otherwise,",Else condition
+else (any).,Else condition
+"else then any,",Else condition
+"else, then",Else condition
+"else any,",Else condition
+else if any,Else condition
+"else,",Else condition
+"IF not,",Else condition
+if not,Else condition
+"if not the the case,",Else condition
+"in case, the given condition is not satisfied",Else condition
+terminate classification,End
+stop algorithm,End
+stop,End
+End,End
+end of the pseudo code,End
+terminate the program,End
+close the application,End
+finish ML program,End
+quite algorithm,End
+conclude steps,End
+repeat until 15,For loop
+repeat for 10 times,For loop
+for 30 times,For loop
+do 7 number of iterations,For loop
+for(int i=0; i<5; i++),For loop
+run for loop for 10 times,For loop
+iterate 5 times,For loop
+"for (x = 10, x=0, x--){",For loop
+"for the range of 6 to 34,",For loop
+"for temp in range(4, 8)",For loop
+for x in range(7),For loop
+repeat the process for 96 iterations,For loop
+initialize a for each loop for items in the list my_array,For each loop
+for element in given_list,For each loop
+for every k in keys,For each loop
+for e in elements :,For each loop
+for item in item_list,For each loop
+apply for every member in the given_list,For each loop
+do to each item in the my_list,For each loop
+iterate through each member in the array,For each loop
+"iterate for each column in the dataset,",For each loop
+"if !any,",IF condition – Not
+! any:,IF condition – Not
+if !( any ),IF condition – Not
+IF !any,IF condition – Not
+not the case that something is not false,IF condition – Not
+"not the case of any is true,",IF condition – Not
+"if not any,",IF condition – Not
+"if any is not true,",IF condition – Not
+"if result is false,",IF condition – Not
+if the condition is not true:,IF condition – Not
+"not the case of any is not true,",IF condition – Simple
+IF any is not FALSE,IF condition – Simple
+"if using_sysrandom is not false,",IF condition – Simple
+"not the case of any is false,",IF condition – Simple
+"if any is true,",IF condition – Simple
+IF any,IF condition – Simple
+IF (BOOL variable),IF condition – Simple
+if ( some condition ):,IF condition – Simple
+if (anything),IF condition – Simple
+"if true,",IF condition – Simple
+if something,IF condition – Simple
+if moon is not same as sun:,IF condition – Statement (!=)
+IF if van is different with car,IF condition – Statement (!=)
+"if rat is not similar to cat,",IF condition – Statement (!=)
+if square is not wheel:,IF condition – Statement (!=)
+if not the case that some1 is equal to some2,IF condition – Statement (!=)
+"IF if size of c_ulong does not equals to Size of c_void_p,",IF condition – Statement (!=)
+"if ( dog_age !== cat_age ),",IF condition – Statement (!=)
+if ( any1 != any2 ):,IF condition – Statement (!=)
+"if e.errno is not equal to errno.EEXIST,",IF condition – Statement (!=)
+if man and nam are different,IF condition – Statement (!=)
+"if the value of variable X and the value of variable Y are not equals,",IF condition – Statement (!=)
+if moon is smaller than sun:,IF condition – Statement (<)
+if van is lesser than car,IF condition – Statement (<)
+"if rat shorter than cat,",IF condition – Statement (<)
+if square is fewer than the wheel:,IF condition – Statement (<)
+not the case that some1 is more than some2,IF condition – Statement (<)
+"if size of c_ulong does smaller than Size of c_void_p,",IF condition – Statement (<)
+"if ( dog_age < cat_age ),",IF condition – Statement (<)
+if ( any1 < any2 ):,IF condition – Statement (<)
+"if e.errno is not greater than errno.EEXIST,",IF condition – Statement (<)
+"if rat is similar to cat,",IF condition – Statement (=)
+if my_name is same as your_name:,IF condition – Statement (=)
+if num1 is num2,IF condition – Statement (=)
+"if real equals to expected,",IF condition – Statement (=)
+if ( dog_age = cat_age ) {,IF condition – Statement (=)
+if any1 == any2:,IF condition – Statement (=)
+if any1 is equals to any2,IF condition – Statement (=)
+"if the value of X and the value of Y are exactly the same,",IF condition – Statement (=)
+"if e.errno is not lesser than errno.EEXIST,",IF condition – Statement (>)
+if ( any1 > any2 ):,IF condition – Statement (>)
+"if ( dog_age > cat_age ),",IF condition – Statement (>)
+"if size of c_ulong does higher than Size of c_void_p,",IF condition – Statement (>)
+not the case that some1 is lesser than some2,IF condition – Statement (>)
+if square is bigger than the wheel:,IF condition – Statement (>)
+"if rat taller than cat,",IF condition – Statement (>)
+if van is larger than car,IF condition – Statement (>)
+if moon is greater than sun:,IF condition – Statement (>)
+import scikit,import ML Library
+using E1070,import ML Library
+e 1070,import ML Library
+scikit learn,import ML Library
+by using SKLEARN,import ML Library
+import scikit learn,import ML Library
+use e1070,import ML Library
+use sklearn,import ML Library
+import suitable machine learning package,import ML Library
+use appropriate ML package,import ML Library
+refer a machine learning library,import ML Library
+import some machine learning module,import ML Library
+use similar kind of machine learning library to Scikit Learn,import ML Library
+load FuzzyWuzzy,Import Specific Modules
+by using os,Import Specific Modules
+use module_name,Import Specific Modules
+import module,Import Specific Modules
+using a given_module_name,Import Specific Modules
+import package_name,Import Specific Modules
+import confusion_matrix from sklearn,Import Specific Modules
+use a preprocessing library,Import Specific Modules
+from sklearn import preprocessing,Import Specific Modules
+import library DataVisualization,Import Specific Modules
+read dataset,Load Dataset
+dataset = dataset_name,Load Dataset
+loading dataset ds1,Load Dataset
+Build the model by using the dataset,Load Dataset
+use given dataset,Load Dataset
+Load dataset,Load Dataset
+using the given csv file,Load Dataset
+load data set as ds,Load Dataset
+source file = dataset,Load Dataset
+by using the given CSV file as the data set,Load Dataset
+refer to the uploaded data set,Load Dataset
+put the given data set in to a data frame,Load Dataset
+apply normalization for required columns,Normalization-General
+normalize uploaded dataset,Normalization-General
+use scaler to normalize attribute values,Normalization-General
+normalize by using scale,Normalization-General
+normalize feature set,Normalization-General
+normalize if necessary,Normalization-General
+apply normalization,Normalization-General
+normalize dataset,Normalization-General
+normalize 4444 and 9999 in data set,Normalization-Specific
+"apply normalization to col1, col2 by using scaler",Normalization-Specific
+"normalize feature 1, feature 2 and feature 3 by using scale of 0 to 10",Normalization-Specific
+normalize column1 and column 5 in uploaded dataset,Normalization-Specific
+"columns to be normalized = 3, 4",Normalization-Specific
+apply normalization to column1 and column2,Normalization-Specific
+"features to be normalized = name, age, place",Normalization-Specific
+"normalize attribute 1, attribute 2, attribute 3 and attribute 5",Normalization-Specific
+display words,Print
+print line text,Print
+println(some word pharse),Print
+print(),Print
+print something,Print
+print,Print
+print anything,Print
+show (result),Print
+display the requested result on the screen,Print
+use 0.1 from the data set for validation,Split Dataset – Test
+validation = 0.256,Split Dataset – Test
+split dataset in to test and train,Split Dataset – Test
+split dataset,Split Dataset – Test
+"test,train ratio = 0.24",Split Dataset – Test
+allocate 35% for testing,Split Dataset – Test
+define a variable called test and assign 0.78 to it,Split Dataset – Test
+35% for testing,Split Dataset – Test
+test size = 0.3,Split Dataset – Test
+test set is 0.6 of data set,Split Dataset – Test
+use 60% data for testing,Split Dataset – Test
+use 78% of the source data to learning,Split Dataset – Train
+use 0.2 of data for build the model,Split Dataset – Train
+training set = 0.4,Split Dataset – Train
+train/test ratio = 0.48,Split Dataset – Train
+allocate 60% for training,Split Dataset – Train
+train 80%,Split Dataset – Train
+define a floating point variable train and assign 0.89,Split Dataset – Train
+define double variable called train with value 0.78,Split Dataset – Train
+train ratio is 0.5,Split Dataset – Train
+use 0.8 to train the model,Split Dataset – Train
+0.75 for training,Split Dataset – Train
+use 60% data for training,Split Dataset – Train
+declare a floating point variable called train_set and assign 0.078 to it,Split Dataset – Train
+create the model,Start Algorithm
+build model,Start Algorithm
+implement clustering algorithm,Start Algorithm
+start above mentioned algorithm,Start Algorithm
+Apply ml algorithm to data set,Start Algorithm
+Begin clustering,Start Algorithm
+implement algorithm,Start Algorithm
+Apply algorithm,Start Algorithm
+Start classification,Start Algorithm
+until the condition is true,While loop
+while(),While loop
+while something:,While loop
+while (1):,While loop
+white true,While loop
+do infinitely,While loop
+goodness is a variable with class instance goody,Assign Class instance to variable
+create variable named rainfall and assign rain to it,Assign Class instance to variable
+lemmatizer is lemmatizer () in NLTK,Assign Class instance to variable
+depth = depthclass(),Assign Class instance to variable
+define a variable called burnable and initiate burny_class as value,Assign Class instance to variable
+assign some_class instance to variable def,Assign Class instance to variable
+"declare a variable named tfidf_transformer, and assign tfidf transformer()",Assign Class instance to variable
+define variable le and instantiate label encoder,Assign Class instance to variable
+define variable scaler and assign standard scaler class,Assign Class instance to variable
+show confusion matrix,Confusion Matrix
+obtain the confusion matrix by using predictions,Confusion Matrix
+find confusion matrix,Confusion Matrix
+define variable cm and generate confusion matrix for predictions,Confusion Matrix
+return confusion matrix as ca,Confusion Matrix
+apply confusion matrix,Confusion Matrix
+calculate relevant confusion matrix,Confusion Matrix
+"use attribute 1, attribute 2, attribute 3 , attribute 4 and attribute 5 for learning",Define features
+"features to be used to learn = weight, height, length",Define features
+"selected features = 9999, 4444",Define features
+"use 4444, findex1, findex2, findex9 columns",Define features
+"columns to be considered = findex2, findex9",Define features
+"attributes are column 1 , column 2 and column 6",Define features
+"features = runs, wickets, no_of_100's, average, strke_rates",Define features
+use knn from the machine learning package,import ML Algorithm
+import k-means from ML library,import ML Algorithm
+import KNN,import ML Algorithm
+import NN from Machine Learning library,import ML Algorithm
+import library SVM,import ML Algorithm
+import library Logistic Regression,import ML Algorithm
+import library Random Forest,import ML Algorithm
+import library Gaussian Naive Bayes,import ML Algorithm
+import library Multinomial Naive Bayes,import ML Algorithm
+import k-nearest neghbour library,import ML Algorithm
+apply numerization for required columns,Numerization
+numerize uploaded dataset,Numerization
+encode object type attributes as numeric,Numerization
+to encode object type columns as numeric,Numerization
+numerize dataframe column and reassign dataframe column,Numerization
+numerize feature set,Numerization
+numerize dataset,Numerization
+numerize if necessary,Numerization
+apply numerization,Numerization
+numerize 4444 and 9999 in data set,Numerization-Specific
+numerize column1 and column 5 in uploaded dataset,Numerization-Specific
+"numerize attribute 1, attribute 2, attribute 3 and attribute 5",Numerization-Specific
+"features to be numerized = name, age, place",Numerization-Specific
+apply numerization to column1 and column2,Numerization-Specific
+numerize column1 to column 5,Numerization-Specific
+"columns to be numerized = 3, 4",Numerization-Specific
+use learned model to predict feature for my_list,Predict clf
+predict relevant class for dp,Predict clf
+apply sample_data to the model and obtain class,Predict clf
+find class for given data points in array employees,Predict clf
+predict clf for new_datapoint,Predict clf
+parse list_values to model and obtain predicted classes,Predict clf
+drop data points which do not contain value for class,Remove Null Target Classes
+do not consider data points with empty cell in target class,Remove Null Target Classes
+ignore rows with no data in class feature,Remove Null Target Classes
+take only values not empty in class atribute,Remove Null Target Classes
+delete cells with null value in class column,Remove Null Target Classes
+remove null cells in target class,Remove Null Target Classes
+remove datapoints that have NULL target_class from the dataframe and reassign dataframe,Remove Null Target Classes
+remove null data points in train set,Replace NaN values
+fill incomplete values by using locf,Replace NaN values
+replace values for unfilled cells from nocf,Replace NaN values
+remove null values in column4 by using column average,Replace NaN values
+replace NaN values with next observation carried forawrd,Replace NaN values
+replace Null values with last observation carried forawrd,Replace NaN values
+replace empty values with the column mean and reassign dataframe,Replace NaN values
+put train and test sets in to separate data frames,Replace NaN values
+separate training and testing sets,SplitDataset
+split dataset by split_ratio,SplitDataset
+define train and validate sets and classes,SplitDataset
+"assign train set to X_train, y_train and test set to X_test, y_test",SplitDataset
+assign test set to X_test and test class to y_test,SplitDataset
+assign train set to X_train and train class to y_train,SplitDataset
+separate data set for training and validation,SplitDataset
+divide dataset in to training and testing sets,SplitDataset
+split dataframe feature set and target class,SplitDataset
+"fill empty array temp with name, age and weight",Append elements to a list
+"add 49, 45 to array iop",Append elements to a list
+"ruplef is a list with values computer, phone, book, 465, and 244.43",Append elements to a list
+"define a string array called str_array and put flowers, guitars, elephants and drums to it",Append elements to a list
+"num_array = Arshad, Milan",Append elements to a list
+"create a list named temp_list and add 'Milan', 'Madusha', 'Dinusha', 'Arshad', 'Ruchira'",Append elements to a list
+"assign 45, 89 ,45 ,12 and 44 to number_array",Append elements to a list
+"my_list.append(runs, wickets, total, strike_rate)",Append elements to a list
+add element1 to element_list,Append elements to a list
+"append age, height, skills to the list named my_list",Append elements to a list

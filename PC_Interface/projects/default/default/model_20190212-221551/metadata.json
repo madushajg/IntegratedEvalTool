@@ -1,0 +1,83 @@
+{
+    "pipeline": [
+        {
+            "model": "en",
+            "case_sensitive": false,
+            "name": "nlp_spacy",
+            "class": "rasa_nlu.utils.spacy_utils.SpacyNLP"
+        },
+        {
+            "name": "tokenizer_spacy",
+            "class": "rasa_nlu.tokenizers.spacy_tokenizer.SpacyTokenizer"
+        },
+        {
+            "name": "ner_crf",
+            "L1_c": 0.1,
+            "classifier_file": "crf_model.pkl",
+            "max_iterations": 50,
+            "BILOU_flag": true,
+            "class": "rasa_nlu.extractors.crf_entity_extractor.CRFEntityExtractor",
+            "L2_c": 0.1,
+            "features": [
+                [
+                    "low",
+                    "title",
+                    "upper"
+                ],
+                [
+                    "bias",
+                    "low",
+                    "prefix5",
+                    "prefix2",
+                    "suffix5",
+                    "suffix3",
+                    "suffix2",
+                    "upper",
+                    "title",
+                    "digit",
+                    "pattern"
+                ],
+                [
+                    "low",
+                    "title",
+                    "upper"
+                ]
+            ]
+        },
+        {
+            "name": "intent_featurizer_spacy",
+            "class": "rasa_nlu.featurizers.spacy_featurizer.SpacyFeaturizer"
+        },
+        {
+            "name": "intent_classifier_sklearn",
+            "classifier_file": "intent_classifier_sklearn.pkl",
+            "scoring_function": "f1_weighted",
+            "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier",
+            "max_cross_validation_folds": 5,
+            "C": [
+                1,
+                2,
+                5,
+                10,
+                20,
+                100
+            ],
+            "kernels": [
+                "linear"
+            ],
+            "gamma": [
+                0.1
+            ]
+        },
+        {
+            "name": "ner_duckling",
+            "class": "rasa_nlu.extractors.duckling_extractor.DucklingExtractor",
+            "dimensions": [
+                "number"
+            ]
+        }
+    ],
+    "rasa_nlu_version": "0.13.8",
+    "language": "en",
+    "trained_at": "20190212-221551"
+}

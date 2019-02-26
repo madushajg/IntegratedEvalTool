@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% include 'navigation_bar.html' %}
+
+{% block body %}
+
+    <style>
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    counter-reset: tableCount;
+}
+
+.counterCell:before {
+    content: counter(tableCount);
+    counter-increment: tableCount;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+<div class="block1">
+  <h2>Lines in the entered Pseudo Code</h2>
+<br>
+
+ <table align="center">
+   <thead>
+      <tr>
+        <th>No.</th>
+        <th>Statement</th>
+      </tr>
+   </thead>
+
+  <tbody>
+    {% for lines in statements %}
+        <tr>
+          <td class="counterCell"></td>
+          <td>{{lines}}</td>
+        </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
+<br><br><br>
+  <p><a href="/intermediate">
+Click here to generate the intermediate standard pseudo code
+  </a></p>
+<br><br><br><br>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var sPath = window.location.pathname;
+        var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+        $('a[href="'+ sPage +'"]').parent().addClass('active');
+    });
+</script>
+
+{% endblock %}

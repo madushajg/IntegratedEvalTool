@@ -1,0 +1,48 @@
+__label__1 obtain the accuracy by using validation set
+__label__2 declare floating point variable friendship, 35.3290 as value
+__label__3 declare Integer variable named as my_val, 294,549,560 as value of the variable
+__label__4 declare variable named as my_choice, 'Random'  as value of the variable
+__label__5 declare an empty variable with the name lolly 
+__label__6 declare an empty array with the name my_array
+__label__7 preferred programming language = Java
+__label__8 learn by using 5 neighbors
+__label__9 use Naive Bayes classifier to learn the model
+__label__10 feature to be classified is SL_win
+__label__11 use Pandas or similar library
+__label__12 refer to array handler such as Numpy
+__label__13 hide feature 1, feature 2, feature 3 , feature 4 and  feature 5 from learning
+__label__14 hide feature 1 to feature 5 from learning
+__label__15 in case, the condition is not satisfied
+__label__16 terminate classification
+__label__17 repeat the process for 40 iterations
+__label__18 initialize a for each loop for items in the list my_array
+__label__19 if the condition is not true:
+__label__20 if the Boolean value of condition is true 
+__label__21 if the value of X and the value of Y are not equals,
+__label__22 if length of the list A is smaller than the length of the list B
+__label__23 if the value of X and the value of Y are exactly the same,
+__label__24 if length of the list A is larger than the length of the list B,
+__label__25 import similar machine learning library to Scikit Learn
+__label__26 import module_name as mn
+__label__27 put the given data set in to data frame
+__label__28 apply normalization to necessary attributes 
+__label__29 display the result on the screen
+__label__30 declare a float variable called test set and assign 0.33 to it
+__label__31 declare a float variable called train set and assign 0.33 to it
+__label__32 start learn the model
+__label__33 until the condition is true
+__label__34 define variable token and instantiate tokenizer
+__label__35 calculate relevant confusion matrix
+__label__36 add column 1, column4, column 7, column 8 and column 9 to dataframe
+__label__37 import k-nearest neghbour library
+__label__38 numerize column1 to column 5
+__label__39 classify given data points by using trained model
+__label__40 remove datapoints that have NULL target_class from the dataframe and reassign dataframe
+__label__41 fill missing values in column3 and column5 by using mean
+__label__42 separate data set for training and validation
+__label__43 put 'chair', 'table', 'phone' and 'window' to array room_items
+__label__44 scale data in column4, column6 to a standard scale 
+__label__45 convert categorical data in column3, column4, column7 to numerical data
+__label__46 for loop is ending
+__label__47 if condition ends
+__label__48 while loop end in here

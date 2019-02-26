@@ -1,0 +1,60 @@
+Accuracy,N,5,,,,,,Assign value to float variable
+Assign value to float variable,"var_name, value",1,,,,,,Assign value to integer variable
+Assign value to integer variable,"var_name, value",1,,,,,,Define K in KNN
+Assign value to string variable,"var_name, s_value",9,,,,,,
+Define a variable,var_name,2,,,,,,Define a variable
+Define an array,var_name,2,,,,,,Predict clf
+Define Language,def_value,3,,,,,,Define an array
+Define K in KNN,"var_name, value",1,,,,,,
+Define Algorithm,def_value,3,,,,,,Define Language
+Define Class,c_value,11,,,,,,Define Algorithm
+Define data manipulation library,def_value,3,,,,,,Define data manipulation library
+Define multidimensional array operator,def_value,3,,,,,,Define multidimensional array operator
+Drop columns,mul_values,4,,,,,,import ML Library
+Drop columns - Range,range,9,,,,,,Replace NaN values
+Else condition,N,5,,,,,,import ML Algorithm
+End,N,5,,,,,,
+For loop,N,5,,,,,,Drop columns
+For each loop,"var_name, item",6,,,,,,Normalization-Specific
+IF condition – Not,N,5,,,,,,Define features
+IF condition – Simple,N,5,,,,,,Numerization-Specific
+IF condition – Statement (!=),N,5,,,,,,
+IF condition – Statement (<),N,5,,,,,,Else condition
+IF condition – Statement (=),N,5,,,,,,End
+IF condition – Statement (>),N,5,,,,,,Else condition
+import ML Library,def_value,3,,,,,,End
+Import specific modules,value_s,7,,,,,,For loop
+Load Dataset,N,5,,,,,,IF condition – Not
+Normalization-General,N,5,,,,,,IF condition – Not
+Normalization-Specific,mul_values,4,,,,,,IF condition – Simple
+Print,value_s,7,,,,,,IF condition – Statement (!=)
+Split Dataset – Test,value_n,10,,,,,,IF condition – Statement (<)
+Split Dataset – Train,value_n,10,,,,,,IF condition – Statement (=)
+Start Algorithm,N,5,,,,,,IF condition – Statement (>)
+While loop,N,5,,,,,,Load Dataset
+Assign Class instance to variable,"var_name, instance",12,,,,,,Start Algorithm
+Confusion Matrix,N,5,,,,,,While loop
+Define features,mul_values,4,,,,,,Confusion Matrix
+import ML Algorithm,def_value,3,,,,,,Remove Null Target Classes
+Numerization,N,5,,,,,,Numerization-General
+Numerization-Specific,mul_values,4,,,,,,Normalization-General
+Predict clf,var_name,2,,,,,,Accuracy
+Remove Null Target Classes,N,5,,,,,,SplitDataset
+Replace NaN values,def_value,3,,,,,,
+SplitDataset,N,5,,,,,,For each loop
+Append elements to a list,"var_name, values",8,,,,,,
+,,,,,,,,Print
+,,,,,,,,Import specific modules
+,,,,,,,,
+,,,,,,,,Split Dataset – Test
+,,,,,,,,Split Dataset – Train
+,,,,,,,,
+,,,,,,,,Append elements to a list
+,,,,,,,,
+,,,,,,,,Assign value to string variable
+,,,,,,,,
+,,,,,,,,Assign Class instance to variable
+,,,,,,,,
+,,,,,,,,Define Class
+,,,,,,,,
+,,,,,,,,Drop columns - Range

@@ -1,0 +1,446 @@
+apply cross validation
+return accuracy
+show accuracy
+calculate accuracy
+print accuracy
+use test data to find accuracy
+apply test set to model and obtain the accuracy
+obtain the accuracy by using validation set
+find accuracy and assign it in to variable named accuracy
+predict class for test data and return accuracy
+predict class for validation set
+define variable predictions and predict clf for X_test
+use X_test to find accuracy
+define variable predictions and predict clf for X_test
+assign 567.045 to variable def
+define variable T and assign 0.84
+define a float variable called burnable and assign 56.89 as value
+depth = 27.245
+average is 45.68
+create a float variable named rainfall and assign 5.64 to it
+goodness is a variable with value 4.4852
+value of rain is 78.2
+substitute decimal 5.5648 to variable count
+assign value 8.95 to double variable my_val
+winning_rate is a double variable which has value 4.00564
+no_of_wins is a int variable which has value 4
+assign 545 to variable def
+define an integer variable called burnable and assign 88 as value
+define variable T and assign 48
+resolution = 487
+equity is equals to 67
+create an int variable named rainfall and assign 64 to it
+goodness is a variable with value 4
+value of tip is 8
+assign 3 to integer variable happiness
+declare Integer variable named as number, 294,549,560 as value of the variable
+substitute string 'nice' to variable str
+assign 'hello df' to string variable hello
+goodness is a variable with value 'any string'
+equity_name is equals to 'some name'
+define variable phase and assign 'hello world'.
+define a string variable called some_string and assign 'your name' as value
+assign 'Usha' to string variable long_string
+value of string variable name is 'Yilokyr'
+create a string variable named str and append 'My Name' to str
+my_string = 'my name is R'
+define variable pepper
+allocate memory to variable length
+define a variable named uft
+define an integer variable named weight
+define a floating point variable named weight
+define a string variable named weight
+initialize a variable as any_name
+my_height is a null variable
+create a variable named tizzle
+create variable d
+declare an empty variable with the name validity
+create list e
+create a list named tizzle
+my_height is a empty list
+initialize a list as any_name
+define a string list named weights
+define a floating point list named weight
+define an integer list named weights
+define a list named uft
+allocate memory to list fruits
+define list pepper
+create array basic_array
+create an array named tizzle
+create a list named tizzle
+my_height is a null array
+define a string array named weight
+define a floating point array named weight
+define an integer array named weight_list
+define an empty array named uft
+allocate memory to array my_array
+define array pep
+associate Python to train the ML model
+write the source code by using R
+language = python
+language is R
+use R as the language
+build model using python
+preferred programming language = C
+k value in KNN is 45
+value of k = 4
+assign 5 to K
+K = 2
+k is 3
+N is 7
+N = 4
+consider 10 neighbors
+No of neighbors = 5
+classify using regression
+classifier is LinearSVC
+clf = Logistic Regression
+classify data frame using MultinomialNB
+import KNN
+Algorithm = DTC
+Apply K-Means
+use KNN classifiction
+By applying support vector machine
+use ANN
+train the model using Neural Network
+build model by applying Random Forrest
+clustering algorithm is K-means
+use Decision Tree classifier to learn the mode
+define variable target_class and assign TARGET_CLASS
+define my_class as class
+class = rating_text
+class rating_text
+class attribute = currency
+ground truth = pass
+use raining as class
+class is SL_win
+class = play_golf
+take my_class as the class
+define variable clf and classify X_train y_train using Algorithm
+from data_frame_library
+import Pandas
+import data manipulation library
+By using Pandas
+I want to use a data manipulation library
+use data manipulation library
+import data frame generator
+import Pandas as pd
+use data frame handler
+use Pandas or similar kind of library
+import library dataframe
+Use inbuilt array operator
+By using multidimensional array
+import Numpy
+using multidimensional array operator
+use array organizer
+import similar library to Numpy
+import library multidimensional array
+columns to be dropped = findex2, findex9
+drop findex2
+ignore 4444, findex1, findex2, findex9 columns
+remove 9999 column
+drop columns 9999, 4444
+drop column 9999dr
+delete column1, column4 and column6
+not consider price, sales
+features to be ignored = weight, height, length
+not use distance and velocity for train the model
+eliminate column1 and column2 from data set
+hide attribute 1, attribute 2, attribute 3 , attribute 4 and attribute 5 from learning
+columns to be dropped = findex2 to findex9
+drop features in range of column3 and column5
+ignore attributes from attribute1 to attribute7
+remove column 1 to column 7
+drop columns, 9999 to 4444
+drop columns in between name and sales
+delete all attributes between column1 and column5
+not consider feature 1 to feature 10
+features to be ignored = weight - length
+hide feature 1 to feature 5 from model learning
+otherwise,
+else (any).
+else then any,
+else, then
+else any,
+else if any
+else,
+IF not,
+if not
+if not the the case,
+in case, the given condition is not satisfied
+terminate classification
+stop algorithm
+stop
+End
+end of the pseudo code
+terminate the program
+close the application
+finish ML program
+quite algorithm
+conclude steps
+repeat until 15
+repeat for 10 times
+for 30 times
+do 7 number of iterations
+for(int i=0; i<5; i++)
+run for loop for 10 times
+iterate 5 times
+for (x = 10, x=0, x--){
+for the range of 6 to 34,
+for temp in range(4, 8)
+for x in range(7)
+repeat the process for 96 iterations
+initialize a for each loop for items in the list my_array
+for element in given_list
+for every k in keys
+for e in elements :
+for item in item_list
+apply for every member in the given_list
+do to each item in the my_list
+iterate through each member in the array
+iterate for each column in the dataset,
+if !any,
+! any:
+if !( any )
+IF !any
+not the case that something is not false
+not the case of any is true,
+if not any,
+if any is not true,
+if result is false,
+if the condition is not true:
+not the case of any is not true,
+IF any is not FALSE
+if using_sysrandom is not false,
+not the case of any is false,
+if any is true,
+IF any
+IF (BOOL variable)
+if ( some condition ):
+if (anything)
+if true,
+if something
+if moon is not same as sun:
+IF if van is different with car
+if rat is not similar to cat,
+if square is not wheel:
+if not the case that some1 is equal to some2
+IF if size of c_ulong does not equals to Size of c_void_p,
+if ( dog_age !== cat_age ),
+if ( any1 != any2 ):
+if e.errno is not equal to errno.EEXIST,
+if man and nam are different
+if the value of variable X and the value of variable Y are not equals,
+if moon is smaller than sun:
+if van is lesser than car
+if rat shorter than cat,
+if square is fewer than the wheel:
+not the case that some1 is more than some2
+if size of c_ulong does smaller than Size of c_void_p,
+if ( dog_age < cat_age ),
+if ( any1 < any2 ):
+if e.errno is not greater than errno.EEXIST,
+if rat is similar to cat,
+if my_name is same as your_name:
+if num1 is num2
+if real equals to expected,
+if ( dog_age = cat_age ) {
+if any1 == any2:
+if any1 is equals to any2
+if the value of X and the value of Y are exactly the same,
+if e.errno is not lesser than errno.EEXIST,
+if ( any1 > any2 ):
+if ( dog_age > cat_age ),
+if size of c_ulong does higher than Size of c_void_p,
+not the case that some1 is lesser than some2
+if square is bigger than the wheel:
+if rat taller than cat,
+if van is larger than car
+if moon is greater than sun:
+import scikit
+using E1070
+e 1070
+scikit learn
+by using SKLEARN
+import scikit learn
+use e1070
+use sklearn
+import suitable machine learning package
+use appropriate ML package
+refer a machine learning library
+import some machine learning module
+use similar kind of machine learning library to Scikit Learn
+load FuzzyWuzzy
+by using os
+use module_name
+import module
+using a given_module_name
+import package_name
+import confusion_matrix from sklearn
+use a preprocessing library
+from sklearn import preprocessing
+import library DataVisualization
+read dataset
+dataset = dataset_name
+loading dataset ds1
+Build the model by using the dataset
+use given dataset
+Load dataset
+using the given csv file
+load data set as ds
+source file = dataset
+by using the given CSV file as the data set
+refer to the uploaded data set
+put the given data set in to a data frame
+apply normalization for required columns
+normalize uploaded dataset
+use scaler to normalize attribute values
+normalize by using scale
+normalize feature set
+normalize if necessary
+apply normalization
+normalize dataset
+normalize 4444 and 9999 in data set
+apply normalization to col1, col2 by using scaler
+normalize feature 1, feature 2 and feature 3 by using scale of 0 to 10
+normalize column1 and column 5 in uploaded dataset
+columns to be normalized = 3, 4
+apply normalization to column1 and column2
+features to be normalized = name, age, place
+normalize attribute 1, attribute 2, attribute 3 and attribute 5
+display words
+print line text
+println(some word pharse)
+print()
+print something
+print
+print anything
+show (result)
+display the requested result on the screen
+use 0.1 from the data set for validation
+validation = 0.256
+split dataset in to test and train
+split dataset
+test,train ratio = 0.24
+allocate 35% for testing
+define a variable called test and assign 0.78 to it
+35% for testing
+test size = 0.3
+test set is 0.6 of data set
+use 60% data for testing
+use 78% of the source data to learning
+use 0.2 of data for build the model
+training set = 0.4
+train/test ratio = 0.48
+allocate 60% for training
+train 80%
+define a floating point variable train and assign 0.89
+define double variable called train with value 0.78
+train ratio is 0.5
+use 0.8 to train the model
+0.75 for training
+use 60% data for training
+declare a floating point variable called train_set and assign 0.078 to it
+create the model
+build model
+implement clustering algorithm
+start above mentioned algorithm
+Apply ml algorithm to data set
+Begin clustering
+implement algorithm
+Apply algorithm
+Start classification
+until the condition is true
+while()
+while something:
+while (1):
+white true
+do infinitely
+goodness is a variable with class instance goody
+create variable named rainfall and assign rain to it
+lemmatizer is lemmatizer () in NLTK
+depth = depthclass()
+define a variable called burnable and initiate burny_class as value
+assign some_class instance to variable def
+declare a variable named tfidf_transformer, and assign tfidf transformer()
+define variable le and instantiate label encoder
+define variable scaler and assign standard scaler class
+show confusion matrix
+obtain the confusion matrix by using predictions
+find confusion matrix
+define variable cm and generate confusion matrix for predictions
+return confusion matrix as ca
+apply confusion matrix
+calculate relevant confusion matrix
+use attribute 1, attribute 2, attribute 3 , attribute 4 and attribute 5 for learning
+features to be used to learn = weight, height, length
+selected features = 9999, 4444
+use 4444, findex1, findex2, findex9 columns
+columns to be considered = findex2, findex9
+attributes are column 1 , column 2 and column 6
+features = runs, wickets, no_of_100's, average, strke_rates
+use knn from the machine learning package
+import k-means from ML library
+import KNN
+import NN from Machine Learning library
+import library SVM
+import library Logistic Regression
+import library Random Forest
+import library Gaussian Naive Bayes
+import library Multinomial Naive Bayes
+import k-nearest neghbour library
+apply numerization for required columns
+numerize uploaded dataset
+encode object type attributes as numeric
+to encode object type columns as numeric
+numerize dataframe column and reassign dataframe column
+numerize feature set
+numerize dataset
+numerize if necessary
+apply numerization
+numerize 4444 and 9999 in data set
+numerize column1 and column 5 in uploaded dataset
+numerize attribute 1, attribute 2, attribute 3 and attribute 5
+features to be numerized = name, age, place
+apply numerization to column1 and column2
+numerize column1 to column 5
+columns to be numerized = 3, 4
+use learned model to predict feature for my_list
+predict relevant class for dp
+apply sample_data to the model and obtain class
+find class for given data points in array employees
+predict clf for new_datapoint
+parse list_values to model and obtain predicted classes
+drop data points which do not contain value for class
+do not consider data points with empty cell in target class
+ignore rows with no data in class feature
+take only values not empty in class atribute
+delete cells with null value in class column
+remove null cells in target class
+remove datapoints that have NULL target_class from the dataframe and reassign dataframe
+remove null data points in train set
+fill incomplete values by using locf
+replace values for unfilled cells from nocf
+remove null values in column4 by using column average
+replace NaN values with next observation carried forawrd
+replace Null values with last observation carried forawrd
+replace empty values with the column mean and reassign dataframe
+put train and test sets in to separate data frames
+separate training and testing sets
+split dataset by split_ratio
+define train and validate sets and classes
+assign train set to X_train, y_train and test set to X_test, y_test
+assign test set to X_test and test class to y_test
+assign train set to X_train and train class to y_train
+separate data set for training and validation
+divide dataset in to training and testing sets
+split dataframe feature set and target class
+fill empty array temp with name, age and weight
+add 49, 45 to array iop
+ruplef is a list with values computer, phone, book, 465, and 244.43
+define a string array called str_array and put flowers, guitars, elephants and drums to it
+num_array = Arshad, Milan
+create a list named temp_list and add 'Milan', 'Madusha', 'Dinusha', 'Arshad', 'Ruchira'
+assign 45, 89 ,45 ,12 and 44 to number_array
+my_list.append(runs, wickets, total, strike_rate)
+add element1 to element_list
+append age, height, skills to the list named my_list

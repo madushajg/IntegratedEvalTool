@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="/static/css/forms.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% extends 'layout.html' %}
+{% include 'navigation_bar.html' %}
+
+{% block body %}
+
+<h1>Just Enter a Pseudo Code</h1>
+
+<div class="container">
+{#  <form action="pc" method="POST">#}
+{##}
+{##}
+{#    <label for="bname">Brand Name</label>#}
+{#    <input type="text" id="brandname" name="brandname" placeholder="Your preferred brand">#}
+{##}
+{#    <label for="os">Operating System</label>#}
+{#    <select id="os" name="os">#}
+{##}
+{#        <option value="Lollipop">Android Lollipop</option>#}
+{#        <option value="Marshmallow">Android Marshmallow</option>#}
+{#        <option value="Nougat">Android Nougat</option>#}
+{#        <option value="Oreo">Android Oreo</option>#}
+{##}
+{##}
+{#         <option value="Ios10">IOS 10</option>#}
+{#         <option value="Ios11">IOS 11</option>#}
+{##}
+{#      <option value="windows">Windows 10</option>#}
+{#    </select>#}
+{#      <br/><br/>#}
+{#    <input type="submit" value="Submit">#}
+{#  </form>#}
+
+    <form action="ds" method=post enctype=multipart/form-data>
+      <label for="file">Step 1 - Upload the Dataset</label>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+
+  <form action="pc" method="POST">
+      <fieldset disabled>
+{#    <label for="price">Pseudo Code :</label>#}
+{#    <input type="text" id="price" name="price" placeholder="Pseudo Code">#}
+      <label for="pcode">Step 2 - Enter the Natural Language Pseudo Code</label>
+      <textarea rows="25" cols="50" name="pcode" placeholder="Enter the Pseudo Code"></textarea>
+
+      <br/><br/>
+    <input type="submit" value="Submit Pseudo code">
+      </fieldset>
+  </form>
+</div>
+
+
+<br/><br/>
+
+<!-- Create a simple CodeMirror instance -->
+<link rel="stylesheet" href="/static/lib/codemirror-5.42.2/lib/codemirror.css" type="text/css">
+<script src="/static/lib/codemirror-5.42.2/lib/codemirror.js"></script>
+<script>
+  var editor = CodeMirror.fromTextArea(pcode, {
+    lineNumbers: true
+  });
+</script>
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var sPath = window.location.pathname;
+        var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+        $('a[href="'+ sPage +'"]').parent().addClass('active');
+    });
+</script>
+{% endblock %}
+
+

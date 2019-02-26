@@ -1,0 +1,7 @@
+calculate accuracy
+use given dataset
+dataset = fz
+classifier = decision tree
+class = has_online_booking
+apply classification to fz
+view accuracy

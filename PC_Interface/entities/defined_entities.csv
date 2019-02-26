@@ -1,0 +1,147 @@
+entity,defined_name
+KNN,KNN
+k-nearest neighbors,KNN
+knn classification,KNN
+K-Nearest_Neighbor,KNN
+knn,KNN
+KNN classifiction,KNN
+k-means,k-means
+K-Means Clustering,k-means
+K-Means,k-means
+K-means,k-means
+k means cluster,k-means
+Decision Tree Classification,Decision Tree Classification
+Decision Tree Classification,Decision Tree Classification
+DTC,Decision Tree Classification
+Decision Tree,Decision Tree Classification
+Decision Tree classifier,Decision Tree Classification
+SVM,SVM
+Support Vector Machine,SVM
+support vector machine,SVM
+support vector,SVM
+library SVM,SVM
+ANN,ANN
+Artificial Neural Network,ANN
+naive bayes,Naive Bayes
+Naive Bayes,Naive Bayes
+naive bayes classification,Naive Bayes
+Naive Bayes classifier,Naive Bayes
+DBSCAN,DBSCAN
+dbscan clustering,DBSCAN
+Random Forrest,Random Forrest
+RF classification,Random Forrest
+random forrest,Random Forrest
+Random Forrest Classification,Random Forrest
+library Random Forest ,Random Forrest
+MultinomialNB,MultinomialNB
+multinomial nb,MultinomialNB
+MultiNB,MultinomialNB
+MNB,MultinomialNB
+Multinomial Naive Bayes,MultinomialNB
+Logistic Regression,Logistic Regression
+logistic regression,Logistic Regression
+LogisticRegression,Logistic Regression
+logistic_regression,Logistic Regression
+LR,Logistic Regression
+Linear Classifier,Logistic Regression
+LinearSVC,LinearSVC
+Linear SVC,LinearSVC
+linear svc,LinearSVC
+Linear_SVC,LinearSVC
+regression,regression
+Regression,regression
+Neural Network,ANN
+neural network,ANN
+NN,ANN
+Gaussian Naive Bayes,Gaussian Naive Bayes
+gaussian naive bayes,Gaussian Naive Bayes
+GNB,Gaussian Naive Bayes
+Gausian NB,Gaussian Naive Bayes
+GausianNB,Gaussian Naive Bayes
+Radial SVC,Radial SVC
+RadialSVC,Radial SVC
+radial svc,Radial SVC
+RSVC,Radial SVC
+JavaScript,JavaScript
+JS,JavaScript
+js,JavaScript
+Java,Java
+java,Java
+C,C
+c,C
+python,Python
+Python,Python
+Py,Python
+R,R
+Pandas,Data Manipulation Library
+pandas,Data Manipulation Library
+pd,Data Manipulation Library
+Data Manipulation Library,Data Manipulation Library
+Data_Manipulation_Library,Data Manipulation Library
+Data Frame Library,Data Manipulation Library
+data manipulation library,Data Manipulation Library
+data manipulator,Data Manipulation Library
+data_manipulation_library,Data Manipulation Library
+data frame,Data Manipulation Library
+data_frame,Data Manipulation Library
+Data Frame,Data Manipulation Library
+data frame generator,Data Manipulation Library
+data frame handler,Data Manipulation Library
+data_frame_library,Data Manipulation Library
+data_frame_generator,Data Manipulation Library
+library dataframe,Data Manipulation Library
+Numpy,MultiDimensional Array Operator
+numpy,MultiDimensional Array Operator
+np,MultiDimensional Array Operator
+MultiDimensional Array Operator,MultiDimensional Array Operator
+Multi Dimensional Array Operator,MultiDimensional Array Operator
+MDA operator,MultiDimensional Array Operator
+Array Manager,MultiDimensional Array Operator
+Array Handler,MultiDimensional Array Operator
+Array Manipulator,MultiDimensional Array Operator
+Array Operator,MultiDimensional Array Operator
+array operator,MultiDimensional Array Operator
+array handler,MultiDimensional Array Operator
+array organizer,MultiDimensional Array Operator
+multidimensional array,MultiDimensional Array Operator
+Multi Dimensional Array,MultiDimensional Array Operator
+multidimensional array operator,MultiDimensional Array Operator
+scikit,Scikit
+Scikit,Scikit
+sklearn,Scikit
+SK-Learn,Scikit
+sk learn,Scikit
+scikit learn,Scikit
+Scikit Learn,Scikit
+scikit package,Scikit
+SKLearn,Scikit
+SKLearn Module,Scikit
+e 1070,e1070
+e1070,e1070
+E 1070,e1070
+E1070,e1070
+1070,e1071
+ML Library in R,e1070
+machine learning module,machine learning module
+machine learning package,machine learning module
+Machine Learning Package,machine learning module
+ML package,machine learning module
+ML Library,machine learning module
+machine learning library,machine learning module
+Machine Learning Library,machine learning module
+Machine Learner,machine learning module
+column mean,column mean
+Column Mean,column mean
+mean,column mean
+mean,column mean
+Average,column mean
+sum/count,column mean
+column average,column mean
+avg,column mean
+next observation carried forawrd,next observation carried forawrd
+NOCF,next observation carried forawrd
+nocf,next observation carried forawrd
+next observation,next observation carried forawrd
+last observation carried forawrd,last observation carried forawrd
+last observation,last observation carried forawrd
+locf,last observation carried forawrd

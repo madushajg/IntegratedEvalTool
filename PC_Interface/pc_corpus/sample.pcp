@@ -1,0 +1,12 @@
+define variable final dataframe and reassign dataframe.	**d**
+iterate for each column in the dataframe, ***
+define variable new_datapoint and normalize NEW_DATAPOINT using scaler.	***
+
+if each column datatype is equal to object type,
+then numerize dataframe column using label encoder and reassign dataframe column.
+
+define variable text_feature and assign TEXT_FEATURE.
+
+define variable df_counts_TEXT_FEATURE and assign counts of tokens from the dataframe text feature using count vectorizer.
+
+get the tfidf scores for the dataframe text feature using tfidf transformer and reassign df_counts_TEXT_FEATURE.

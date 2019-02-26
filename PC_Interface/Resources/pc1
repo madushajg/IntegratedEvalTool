@@ -1,0 +1,44 @@
+use data manipulation library
+using multidimensional array operator
+use Random Forrest 
+loading dataset ds1
+test size = 0.3
+class = play_golf
+classify ds1
+calculate accuracy
+end
+
+
+
+
+
+use given dataset
+dataset = fz
+classifier = decision tree
+class = has_online_booking
+apply classification to fz
+view accuracy
+
+
+
+use array operator
+use numpy
+use sklearn
+use svm
+apply regression
+class is Machine_learning
+train = 0.7
+test = 30%
+apply cross validation
+delete model
+
+
+use given dataset
+dataset = SalesJan2009.csv
+classifier = support vector
+class = Transaction_date
+delete column1 to column3
+standardize column5
+apply normalization to column6 
+apply classification to fz
+view accuracy

@@ -1,0 +1,20 @@
+import library dataframe
+define variable df and read dataset DATASET csv file
+define variable clf and classify df_train with target class TARGET_CLASS and test set df_test using kknn
+define variable predictions and predict clf
+convert y_test list to a vector
+convert predictions list to a vector
+define variable cm and assign table for y_test and predictions
+define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+define variable target_class and assign TARGET_CLASS
+define variable split and assign SPLIT_RATIO
+define array features and assign FEATURE_SET
+define variable ratio and assign sample with total size of df and sample size SPLIT_RATIO for total size of df
+define variable X of features from dataframe
+define variable y of target_class from dataframe
+define variable df_train of ratio from dataframe
+define variable df_test of last ratio from dataframe
+define variable X_train of ratio from X
+define variable X_test of last ratio from X
+define variable y_train of ratio from y
+define variable y_test of last ratio from y

@@ -1,0 +1,1 @@
+{"TARGET_CLASS": "Genre", "DATASET": "videogamesales.csv", "ALGORITHM": "KNN", "SPLIT_RATIO": 0.75, "FEATURE_SET": ["Rank", "Name", "Platform", "Year", "Publisher", "NA_Sales"], "VAR0": "wert", "VAR_VALUE0": "57.45"}

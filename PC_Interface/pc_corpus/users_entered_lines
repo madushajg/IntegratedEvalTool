@@ -1,0 +1,187 @@
+create int variable test and assign 20
+assign value 2 to the int variable test
+value of variable total is 3
+assign 10 as the value of test
+define variable x as 5
+initilize variable sum as 10
+assign variable p with value 23
+set value of variable x to 3
+value of variable x is 5
+assign value 10 for variable p
+variable q has value 6
+value stored in y is 10
+define int variable y as 10
+define int variable score as 12
+assign 25 to variable length 
+define int variable count
+declare integer variable count
+create a new int variable as sum
+create float variable avg
+define variable c 
+initialize float variable named tyu
+create a variable as y
+create string variable emp_name
+define variable age to store AGE
+create a new variable called name
+mark variable is used to store student marks
+define int variable as sum
+create int variable as count
+define string wariable as firstName
+create String list and name it as myData
+declare integer list as myArray
+create String[] named myData
+use String array myArray to store names
+declare array x as int
+define integer array y
+define collection ar as double_array
+create a list named uop to store student marks
+declare a new list called names
+student marks are stored in list student_marks
+create String array as item_price 
+create String array as score_lengths
+declare ArrayList as arrayContent
+feed the data to the model to obtain predicted classes
+obtain the predicted classes for array riop using the model
+load the model and parse the data in my_array to obtain classification
+parse list my_list to the model and predict classes
+get classes using data in my_array
+use programming laguage python
+write an algorithm using R
+laguage is equal to R
+write a code using python
+use python as the language
+language is Java
+predict relevant class for data in my_array
+do not use distance and velocity for train the model
+delete colomn 1 and 2
+train the model without using column 1
+remove column 1 in training the model
+Ignore column 1 from the dataset
+Do not consider distance column for thaining the model
+use age,gender and weight as features
+use first 5 columns as features to train
+use feature x,y to train the model
+define feature p, q as features
+use attribute 1 and 2 to train model
+features to be considered are socre,grade,expereince
+features = score,grade,experience
+for each record in recordList
+iterate through every member in recordList
+iterate each element in list_aer untill != null 
+iterate every item utill the end of the list my_list
+loop the result_set for each result to get clf
+Iterate through each item in the list
+get each item in the list kio_er using a loop
+go through the list ty_leju and print each item
+training data set is 70%
+use 70% of the data set for training
+take 30% data for testing
+seperate 60% dataset for training
+use 30% of data for training
+split the data set as 70% for training rest as testing
+for training= 40% of total dataset
+40% is for testing 
+append name, age, color  to myData list
+insert 10 and 20 to myData list
+insert item to the itemList
+add item1 and item2 to the itemList
+append 20 to the array x
+Add two new items item1 and item2 to the list iop_ry
+expand the array by adding 1 ,2 3 to array rty
+define string variable as str and assign "String Test" to it
+assign "String Test" to str
+set value of string variable str to "String Test"
+initilize varible erae with '25 captains'
+assing '10 ducks and i fish' to the string variable b
+initilize variable x as 'go go lanka'
+name = 'ruchira'
+assign 'audi' for the variable car
+create a String variable and assign 'python' to it
+initialize class ert to variable named my_class
+declare class my_class and instantialte fuzzy()
+create class obj named tyui with class upperLimit
+define new class object named rty for class TFIDF
+declare class x to keep initialize my_class
+create a class called Animal and assign Dog class
+c_name = Animal()
+class name is Test and object is MuTestings.
+do not use col1 to col6 train 
+features to be hide = column 6 to 8
+drop column from column 1 to 5
+remove columns from comlumn 5 and column 6
+eleminate columns from column 1 and column 3
+Ignore the columns 1 to 5
+drop first column to third column
+Do not consider column 6 to 8
+use 'Age' as class
+target class = runs
+win_prediction is the target class
+take city as the ground truth
+consider student_type as the class
+classify dataset by using no_of_cars as the class
+delete all attributes between column1 and column5
+apply test set to model and obtain accuracy
+finally, find accuracy of trained model
+use predictions for validation set to find accuracy
+find confusion matrix for the trained model
+finally, find confusion matrix
+show confusion matrix for model
+train model by using logistic regression
+algo = multinomialNB
+decision tree classificarion is the algorithm
+import a dataframe handler
+dataframe library = Pandas
+import Pandas as pd
+consider 4 neighbors 
+N value of knn is 6
+refer to 10 neighbors
+use appropriate array manipulator
+array operator = numpy
+import numpy as np
+otherwise
+mark the end
+mark end of for loop
+escape from immediate if condition
+mark end of while
+run below lines for 78 time
+if condition is not satisfied
+if the condtion is satisfied
+if object1 is not equals to object2
+if object1 is less than object2
+if object1 is equals to object2
+if object1 is grater than object2
+import logistic regression 
+ML algorithm = naive bayes
+knn is the algorithm
+use sklearn to learn the model
+learning package = e1070
+use traveter to do machine translation
+load data points in the data set
+refer to given dataset when build the model
+normalize dataset before applying classifcation
+set each data point in to one scale
+normalize data points in column 4,5 and 9
+scale the dataset for column 3 and column 6
+numerize categorical datapoints
+apply label encoding to data set
+convert categorical data to numerical
+numerize categorical data points in column 3,7 and 8
+convert categorical data to numerical
+convert categorical data in col 1 , col 3 to  numerical
+print 'This is pesudo'
+show 'awesome ps' in scrren
+display string 'smaple codes are here'
+filter null data points for target_class
+do not leave nan rows for class feature
+preprocess data set by removing empty cells in target class
+fill null values by using average of column
+replace absent values by using nocf
+preprocess data set by filling empty cells
+devide dataset in to two sets, one for testing and one for training
+separate uploaded dataset for validation and learning
+allocate portion of data for traing and other portion for testing
+classify upleaded dataset by using naive bayes
+build ml model by following above instructions
+construct the machine learning model
+run until the end codition satisfied
+while (object1 is not null)

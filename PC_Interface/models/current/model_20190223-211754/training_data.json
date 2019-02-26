@@ -1,0 +1,6787 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "common_examples": [
+      {
+        "intent": "Accuracy",
+        "text": "use X_test to find accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "find accuracy and assign it in to variable named accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "predict class for test data and return accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "predict class for validation set and calculate accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "define variable predictions and predict clf for X_test"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "print accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "use test data to find accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "apply test set to model and obtain the accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "apply cross validation"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "return accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "show accuracy"
+      },
+      {
+        "intent": "Accuracy",
+        "text": "calculate accuracy"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "list",
+            "start": 9,
+            "entity": "syn_list"
+          }
+        ],
+        "intent": "Append elements to a list",
+        "text": "create a list named stu_records with values 'Arshad', '24', 'male', 'student'"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "array",
+            "start": 11,
+            "entity": "syn_list"
+          }
+        ],
+        "intent": "Append elements to a list",
+        "text": "fill empty array temp with name, age and weight"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "array",
+            "start": 14,
+            "entity": "syn_list"
+          }
+        ],
+        "intent": "Append elements to a list",
+        "text": "add 49, 45 to array iop"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "list",
+            "start": 12,
+            "entity": "syn_list"
+          }
+        ],
+        "intent": "Append elements to a list",
+        "text": "ruplef is a list with values computer, phone, book, 465, and 244.43"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "value": "string array",
+            "start": 9,
+            "entity": "syn_list"
+          }
+        ],
+        "intent": "Append elements to a list",
+        "text": "define a string array called str_array and put flowers, guitars, elephants and drums to it"
+      },
+      {
+        "intent": "Append elements to a list",
+        "text": "num_array = Arshad, Milan"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "list",
+            "start": 9,
+            "entity": "syn_list"
+          }
+        ],
+        "intent": "Append elements to a list",
+        "text": "create a list named temp_list and add 'Milan', 'Madusha', 'Dinusha', 'Arshad', 'Ruchira'"
+      },
+      {
+        "intent": "Append elements to a list",
+        "text": "assign 45, 89 ,45 ,12 and 44 to number_array"
+      },
+      {
+        "intent": "Append elements to a list",
+        "text": "my_list.append(runs, wickets, total, strike_rate)"
+      },
+      {
+        "intent": "Append elements to a list",
+        "text": "add element1 to element_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "value": "list",
+            "start": 34,
+            "entity": "syn_list"
+          }
+        ],
+        "intent": "Append elements to a list",
+        "text": "append age, height, skills to the list named my_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "preprocessing",
+            "start": 12,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "instantiate preprocessing library and assign to variable ps"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "value": "goody",
+            "start": 43,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "goodness is a variable with class instance goody"
+      },
+      {
+        "entities": [
+          {
+            "end": 46,
+            "value": "rain",
+            "start": 42,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "create variable named rainfall and assign rain to it"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "value": "lemmatizer",
+            "start": 14,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "lemmatizer is lemmatizer () in NLTK"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "depthclass",
+            "start": 8,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "depth = depthclass()"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "value": "burn class",
+            "start": 47,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "define a variable called burnable and initiate burn class as value"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "some_class",
+            "start": 7,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "assign some_class instance  to variable def"
+      },
+      {
+        "entities": [
+          {
+            "end": 72,
+            "value": "tfidf transformer",
+            "start": 55,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "declare a variable named tfidf_transformer, and assign tfidf transformer()"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "value": "label encoder",
+            "start": 35,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "define variable le and instantiate label encoder"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "value": "standard scaler class",
+            "start": 34,
+            "entity": "class_instances"
+          }
+        ],
+        "intent": "Assign Class instance to variable",
+        "text": "define variable scaler and assign standard scaler class"
+      },
+      {
+        "entities": [
+          {
+            "end": 35,
+            "value": "FUZ",
+            "start": 32,
+            "entity": "any"
+          },
+          {
+            "end": 53,
+            "value": "909.56",
+            "start": 47,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "initialize float variable named FUZ with value 909.56"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "78.56",
+            "start": 7,
+            "entity": "number"
+          },
+          {
+            "end": 18,
+            "value": "pt",
+            "start": 16,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "assign 78.56 to pt"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "weight",
+            "start": 30,
+            "entity": "any"
+          },
+          {
+            "end": 54,
+            "value": "786.00",
+            "start": 48,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "define a float variable named weight and assign 786.00"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "value": "friendship",
+            "start": 32,
+            "entity": "any"
+          },
+          {
+            "end": 51,
+            "value": "35.3290",
+            "start": 44,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "declare floating point variable friendship, 35.3290 as value"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "winning_rate",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 57,
+            "value": "4.00564",
+            "start": 50,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "winning_rate is a double variable which has value 4.00564"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "567.045",
+            "start": 7,
+            "entity": "number"
+          },
+          {
+            "end": 30,
+            "value": "def",
+            "start": 27,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "assign 567.045 to variable def"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "T",
+            "start": 16,
+            "entity": "any"
+          },
+          {
+            "end": 33,
+            "value": "0.84",
+            "start": 29,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "define variable T and assign 0.84"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "value": "burnable",
+            "start": 31,
+            "entity": "any"
+          },
+          {
+            "end": 56,
+            "value": "56.89",
+            "start": 51,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "define a float variable called burnable and assign 56.89 as value"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "value": "depth",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 14,
+            "value": "27.245",
+            "start": 8,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "depth = 27.245"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "average",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 16,
+            "value": "45.68",
+            "start": 11,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "average is 45.68"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "value": "rainfall",
+            "start": 30,
+            "entity": "any"
+          },
+          {
+            "end": 54,
+            "value": "5.64",
+            "start": 50,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "create a float variable named rainfall and assign 5.64 to it"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "goodness",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 40,
+            "value": "4.4852",
+            "start": 34,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "goodness is a variable with value 4.4852"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "rain",
+            "start": 9,
+            "entity": "any"
+          },
+          {
+            "end": 21,
+            "value": "78.2",
+            "start": 17,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "value of rain is 78.2"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "5.5648",
+            "start": 19,
+            "entity": "number"
+          },
+          {
+            "end": 43,
+            "value": "count",
+            "start": 38,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "substitute decimal 5.5648 to variable count"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "8.95",
+            "start": 13,
+            "entity": "number"
+          },
+          {
+            "end": 43,
+            "value": "my_val",
+            "start": 37,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "assign value 8.95 to double variable my_val"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "value": "6.34517234227",
+            "start": 7,
+            "entity": "number"
+          },
+          {
+            "end": 40,
+            "value": "opacity",
+            "start": 33,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "assign 6.34517234227 to variable opacity"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "width",
+            "start": 18,
+            "entity": "any"
+          },
+          {
+            "end": 31,
+            "value": "5.78",
+            "start": 27,
+            "entity": "number"
+          }
+        ],
+        "intent": "Assign value to float variable",
+        "text": "value of variable width is 5.78"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "x",
+            "start": 24,
+            "entity": "any"
+          },
+          {
+            "end": 39,
+            "value": "45",
+            "start": 37,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "create a variable named x and assign 45 to it"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "value": "FUZ",
+            "start": 30,
+            "entity": "any"
+          },
+          {
+            "end": 48,
+            "value": "909",
+            "start": 45,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "initialize int variable named FUZ with value 909"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "78",
+            "start": 7,
+            "entity": "number-integer"
+          },
+          {
+            "end": 15,
+            "value": "pt",
+            "start": 13,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "assign 78 to pt"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "value": "weight",
+            "start": 33,
+            "entity": "any"
+          },
+          {
+            "end": 54,
+            "value": "786",
+            "start": 51,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "define an integer variable named weight and assign 786"
+      },
+      {
+        "entities": [
+          {
+            "end": 53,
+            "value": "294,549,560",
+            "start": 42,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "declare Integer variable named as my_val, 294,549,560 as value of the variable"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "no_of_wins",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 46,
+            "value": "4",
+            "start": 45,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "no_of_wins is a int variable which has value 4"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "545",
+            "start": 7,
+            "entity": "number-integer"
+          },
+          {
+            "end": 26,
+            "value": "def",
+            "start": 23,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "assign 545 to variable def"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "value": "burnable",
+            "start": 34,
+            "entity": "any"
+          },
+          {
+            "end": 56,
+            "value": "88",
+            "start": 54,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "define an integer variable called burnable and assign 88 as value"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "T",
+            "start": 16,
+            "entity": "any"
+          },
+          {
+            "end": 31,
+            "value": "48",
+            "start": 29,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "define variable T and assign 48"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "resolution",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 16,
+            "value": "487",
+            "start": 13,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "resolution = 487"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "equity",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 22,
+            "value": "67",
+            "start": 20,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "equity is equals to 67"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "rainfall",
+            "start": 29,
+            "entity": "any"
+          },
+          {
+            "end": 51,
+            "value": "64",
+            "start": 49,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "create an int variable named rainfall and assign 64 to it"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "goodness",
+            "start": 0,
+            "entity": "any"
+          },
+          {
+            "end": 35,
+            "value": "4",
+            "start": 34,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "goodness is a variable with value 4"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "tip",
+            "start": 9,
+            "entity": "any"
+          },
+          {
+            "end": 17,
+            "value": "8",
+            "start": 16,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "value of tip is 8"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "3",
+            "start": 7,
+            "entity": "number-integer"
+          },
+          {
+            "end": 38,
+            "value": "happiness",
+            "start": 29,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "assign 3 to integer variable happiness"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "value": "5",
+            "start": 19,
+            "entity": "number-integer"
+          },
+          {
+            "end": 38,
+            "value": "count",
+            "start": 33,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to integer variable",
+        "text": "substitute integer 5 to variable count"
+      },
+      {
+        "intent": "Assign value to String variable",
+        "text": "add 'Tom is a man' to variable mal"
+      },
+      {
+        "intent": "Assign value to String variable",
+        "text": "initialize string variable named FUZ with 'Fuz is my name'"
+      },
+      {
+        "entities": [
+          {
+            "end": 54,
+            "value": "'786'",
+            "start": 49,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "define a string variable named weight and assign '786'"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "value": "Random",
+            "start": 38,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "declare variable named as my_choice, 'Random'  as value of the variable"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "value": "nice",
+            "start": 18,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "substitute string nice to variable str"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "hello df",
+            "start": 7,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "assign hello df to string variable hello"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "value": "any string",
+            "start": 34,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "goodness is a variable with value any string"
+      },
+      {
+        "entities": [
+          {
+            "end": 34,
+            "value": "some name",
+            "start": 25,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "equity name is equals to some name"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "value": "hello world",
+            "start": 33,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "define variable phase and assign hello world."
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "value": "'your name'",
+            "start": 55,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "define a string variable called some string and assign 'your name' as value"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "Usha",
+            "start": 7,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "assign Usha to string variable long_string"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "value": "Yilokyr",
+            "start": 33,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "value of string variable name is Yilokyr"
+      },
+      {
+        "entities": [
+          {
+            "end": 55,
+            "value": "\"My Name\"",
+            "start": 46,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "create a string variable named str and append \"My Name\" to str"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "value": "my name is R",
+            "start": 12,
+            "entity": "any"
+          }
+        ],
+        "intent": "Assign value to String variable",
+        "text": "my_string = my name is R"
+      },
+      {
+        "intent": "Confusion Matrix",
+        "text": "show confusion matrix"
+      },
+      {
+        "intent": "Confusion Matrix",
+        "text": "obtain the confusion matrix by using predictions"
+      },
+      {
+        "intent": "Confusion Matrix",
+        "text": "find confusion matrix"
+      },
+      {
+        "intent": "Confusion Matrix",
+        "text": "define variable cm and generate confusion matrix for predictions"
+      },
+      {
+        "intent": "Confusion Matrix",
+        "text": "return confusion matrix as ca"
+      },
+      {
+        "intent": "Confusion Matrix",
+        "text": "apply confusion matrix"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "heya"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "howdy"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hey there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hi there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "greetings"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hey"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "long time no see"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "I greet you"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello again"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hi there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "a good day"
+      },
+      {
+        "intent": "ForEach_Loop - content",
+        "text": "anything"
+      },
+      {
+        "intent": "ForEach_Loop - content",
+        "text": "any string"
+      },
+      {
+        "intent": "ForEach_Loop - content",
+        "text": "something"
+      },
+      {
+        "intent": "ForLoop - content",
+        "text": "any string"
+      },
+      {
+        "intent": "ForLoop - content",
+        "text": "any phrase"
+      },
+      {
+        "intent": "ForLoop - content",
+        "text": "something"
+      },
+      {
+        "intent": "ForLoop - content",
+        "text": "anything"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "condition",
+            "start": 7,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "if the condition is not true:"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "any",
+            "start": 5,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "if ! any,"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "value": "any",
+            "start": 2,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "! any:"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "any",
+            "start": 6,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "if !( any )"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "any",
+            "start": 4,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "IF !any"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "something",
+            "start": 18,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "not the case that something is not false"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "any",
+            "start": 16,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "not the case of any is true,"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "any",
+            "start": 7,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "if not any,"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "any",
+            "start": 3,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "if any is not true,"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "result",
+            "start": 3,
+            "entity": "any"
+          }
+        ],
+        "intent": "IF condition - not",
+        "text": "if result is false,"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "any",
+            "start": 16,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "not the case of any is not true,"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "any",
+            "start": 3,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "IF any is not FALSE"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "using_sysrandom",
+            "start": 3,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "if using_sysrandom is not false,"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "any",
+            "start": 16,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "not the case of any is false,"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "any",
+            "start": 3,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "if any is true,"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "any",
+            "start": 3,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "IF any"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "BOOL variable",
+            "start": 4,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "IF (BOOL variable)"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "some condition",
+            "start": 5,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "if ( some condition ):"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "anything",
+            "start": 4,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "if (anything)"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "any statement",
+            "start": 3,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - simple",
+        "text": "IF any statement"
+      },
+      {
+        "intent": "IF condition - simple",
+        "text": "if true,"
+      },
+      {
+        "intent": "IF condition - simple",
+        "text": "if something"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "man",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 14,
+            "value": "nam",
+            "start": 11,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if man and nam are different"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "moon",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 26,
+            "value": "sun",
+            "start": 23,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if moon is not same as sun:"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "van",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 28,
+            "value": "car",
+            "start": 25,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if van is different with car"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "rat",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 28,
+            "value": "cat",
+            "start": 25,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if rat is not similar to cat,"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "square",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 22,
+            "value": "wheel",
+            "start": 17,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if square is not wheel:"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "some1",
+            "start": 18,
+            "entity": "any"
+          },
+          {
+            "end": 41,
+            "value": "some2",
+            "start": 36,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "not the case that some1 is equal to some2"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "size of c_ulong",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 55,
+            "value": "Size of c_void_p",
+            "start": 39,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if size of c_ulong does not equals to  Size of c_void_p,"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "dog_age",
+            "start": 5,
+            "entity": "any"
+          },
+          {
+            "end": 24,
+            "value": "cat_age",
+            "start": 17,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if ( dog_age !== cat_age ),"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "any1",
+            "start": 5,
+            "entity": "any"
+          },
+          {
+            "end": 17,
+            "value": "any2",
+            "start": 13,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if ( any1 != any2 ):"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "e.errno",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 39,
+            "value": "errno.EEXIST",
+            "start": 27,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (!=)",
+        "text": "if e.errno is not equal to errno.EEXIST,"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "rat",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 24,
+            "value": "cat",
+            "start": 21,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - statement (=)",
+        "text": "if rat is similar to cat,"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "my_name",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 31,
+            "value": "your_name",
+            "start": 22,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - statement (=)",
+        "text": "if my_name is same as your_name:"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "num1",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 15,
+            "value": "num2",
+            "start": 11,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - statement (=)",
+        "text": "if num1 is num2"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "real",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 26,
+            "value": "expected",
+            "start": 18,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - statement (=)",
+        "text": "if real equals to expected,"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "dog_age",
+            "start": 5,
+            "entity": "any"
+          },
+          {
+            "end": 22,
+            "value": "cat_age",
+            "start": 15,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - statement (=)",
+        "text": "if ( dog_age = cat_age ) {"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "any1",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 15,
+            "value": "any2",
+            "start": 11,
+            "entity": "Test1"
+          }
+        ],
+        "intent": "IF condition - statement (=)",
+        "text": "if any1 == any2:"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "any1",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 25,
+            "value": "any2",
+            "start": 21,
+            "entity": "Test"
+          }
+        ],
+        "intent": "IF condition - statement (=)",
+        "text": "if any1 is equals to any2"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "e.errno",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 42,
+            "value": "errno.EEXIST",
+            "start": 30,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if e.errno is not lesser than errno.EEXIST,"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "any1",
+            "start": 5,
+            "entity": "any"
+          },
+          {
+            "end": 18,
+            "value": "any2",
+            "start": 14,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if ( any1  >  any2 ):"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "dog_age",
+            "start": 5,
+            "entity": "any"
+          },
+          {
+            "end": 23,
+            "value": "cat_age",
+            "start": 16,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if ( dog_age  > cat_age ),"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "c_ulong",
+            "start": 11,
+            "entity": "any"
+          },
+          {
+            "end": 52,
+            "value": "c_void_p",
+            "start": 44,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if size of c_ulong does higher than Size of c_void_p,"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "some1",
+            "start": 18,
+            "entity": "any"
+          },
+          {
+            "end": 44,
+            "value": "some2",
+            "start": 39,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "not the case that some1 is lesser than some2"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "square",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 34,
+            "value": "wheel",
+            "start": 29,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if square is bigger than the wheel:"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "rat",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 22,
+            "value": "cat",
+            "start": 19,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if rat taller than cat,"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "van",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 26,
+            "value": "car",
+            "start": 23,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if van  is larger than car"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "moon",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 27,
+            "value": "sun",
+            "start": 24,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (>)",
+        "text": "if moon is greater than sun:"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "moon",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 27,
+            "value": "sun",
+            "start": 24,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "if moon is smaller than sun:"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "van",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 26,
+            "value": "car",
+            "start": 23,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "if van  is lesser than car"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "rat",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 23,
+            "value": "cat",
+            "start": 20,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "if rat shorter than cat,"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "square",
+            "start": 3,
+            "entity": "any"
+          },
+          {
+            "end": 33,
+            "value": "wheel",
+            "start": 28,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "if square is fewer than the wheel:"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "some1",
+            "start": 18,
+            "entity": "any"
+          },
+          {
+            "end": 42,
+            "value": "some2",
+            "start": 37,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "not the case that some1 is more than some2"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "c_ulong",
+            "start": 11,
+            "entity": "any"
+          },
+          {
+            "end": 53,
+            "value": "c_void_p",
+            "start": 45,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "if size of c_ulong does smaller than Size of c_void_p,"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "dog_age",
+            "start": 5,
+            "entity": "any"
+          },
+          {
+            "end": 23,
+            "value": "cat_age",
+            "start": 16,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "if ( dog_age  < cat_age ),"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "any1",
+            "start": 5,
+            "entity": "any"
+          },
+          {
+            "end": 18,
+            "value": "any2",
+            "start": 14,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": "if ( any1  <  any2 ):"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "e.errno",
+            "start": 4,
+            "entity": "any"
+          },
+          {
+            "end": 44,
+            "value": "errno.EEXIST",
+            "start": 32,
+            "entity": "any1"
+          }
+        ],
+        "intent": "IF condition - statement (<)",
+        "text": " if e.errno is not greater than errno.EEXIST,"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "k-nearest neighbor",
+            "start": 7,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import k-nearest neighbor library"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "knn",
+            "start": 4,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "use knn from the machine learning package"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "k-means",
+            "start": 7,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import k-means from ML library"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "KNN",
+            "start": 7,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import KNN"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "NN",
+            "start": 7,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import NN from Machine Learning library"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "SVM",
+            "start": 15,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import library SVM"
+      },
+      {
+        "entities": [
+          {
+            "end": 35,
+            "value": "Logisitic Regression",
+            "start": 15,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import library Logisitic Regression"
+      },
+      {
+        "entities": [
+          {
+            "end": 28,
+            "value": "Random Forest",
+            "start": 15,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import library Random Forest"
+      },
+      {
+        "entities": [
+          {
+            "end": 35,
+            "value": "Gaussian Naive Bayes",
+            "start": 15,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import library Gaussian Naive Bayes"
+      },
+      {
+        "entities": [
+          {
+            "end": 38,
+            "value": "Multinomial Naive Bayes",
+            "start": 15,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "import ML Algorithm",
+        "text": "import library Multinomial Naive Bayes"
+      },
+      {
+        "entities": [
+          {
+            "end": 35,
+            "value": "machine learning module",
+            "start": 12,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "import some machine learning module"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "value": "machine learning library",
+            "start": 8,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "refer a machine learning library"
+      },
+      {
+        "entities": [
+          {
+            "end": 26,
+            "value": "ML package",
+            "start": 16,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "use appropriate ML package"
+      },
+      {
+        "entities": [
+          {
+            "end": 40,
+            "value": "machine learning package",
+            "start": 16,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "import suitable machine learning package"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "scikit",
+            "start": 7,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "import scikit"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "E1070",
+            "start": 6,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "using E1070"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "e 1070",
+            "start": 0,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "e 1070"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "scikit learn",
+            "start": 0,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "scikit learn"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "SKLEARN",
+            "start": 9,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "by using SKLEARN"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "scikit learn",
+            "start": 7,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "import scikit learn"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "e1070",
+            "start": 4,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "use e1070"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "sklearn",
+            "start": 4,
+            "entity": "mlearning_library"
+          }
+        ],
+        "intent": "import ML Library",
+        "text": "use sklearn"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "confusion_matrix",
+            "start": 7,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "import confusion_matrix from sklearn"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "preprocessing library",
+            "start": 6,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "use a preprocessing library"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "value": "preprocessing",
+            "start": 20,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "from sklearn import preprocessing"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "value": "DataVisualization",
+            "start": 15,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "import library DataVisualization"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "value": "given_package",
+            "start": 7,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "import given_package"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "package_name",
+            "start": 7,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "import package_name"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "given_module_name",
+            "start": 8,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "using a given_module_name"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "FuzzyWuzzy",
+            "start": 5,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "load FuzzyWuzzy"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "os",
+            "start": 9,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "by using os"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "module_name",
+            "start": 4,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "use module_name"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "module",
+            "start": 7,
+            "entity": "Modules"
+          }
+        ],
+        "intent": "Import Specific Modules",
+        "text": "import module"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "data set",
+            "start": 28,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "define variable df and read data set file"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "value": "uploaded data set",
+            "start": 13,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "refer to the uploaded data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "CSV file",
+            "start": 19,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "by using the given CSV file as the data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "value": "dataset",
+            "start": 14,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "source file = dataset"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "csv",
+            "start": 16,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "using the given csv file"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "data set",
+            "start": 5,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "load data set as ds"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "data set",
+            "start": 5,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "load data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "dataset",
+            "start": 5,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "read dataset"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "value": "dataset_name",
+            "start": 10,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "dataset = dataset_name"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "ds1",
+            "start": 16,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "loading dataset ds1"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "dataset",
+            "start": 29,
+            "entity": "Dataset_Name"
+          }
+        ],
+        "intent": "Load dataset",
+        "text": "Build the model by using the dataset"
+      },
+      {
+        "intent": "Load dataset",
+        "text": "use given dataset"
+      },
+      {
+        "intent": "Load dataset",
+        "text": "Load dataset"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "apply normalization for required columns"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "normalize uploaded dataset"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "use scaler to normalize attribute values"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "normalize by using scale"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "normalize feature set"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "normalize if necessary"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "apply normalization"
+      },
+      {
+        "intent": "Normalization-General",
+        "text": "normalize dataset"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "4444",
+            "start": 10,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 23,
+            "value": "9999",
+            "start": 19,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "normalize 4444 and 9999 in data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "col1",
+            "start": 23,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 33,
+            "value": "col2",
+            "start": 29,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "apply normalization to col1, col2 by using scaler"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "feature 1",
+            "start": 10,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 30,
+            "value": "feature 2",
+            "start": 21,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 44,
+            "value": "feature 3",
+            "start": 35,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "normalize feature 1, feature 2 and feature 3 by using scale of 0 to 10"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "column1",
+            "start": 10,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 30,
+            "value": "column 5",
+            "start": 22,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "normalize column1 and column 5 in uploaded dataset"
+      },
+      {
+        "entities": [
+          {
+            "end": 28,
+            "value": "3",
+            "start": 27,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 31,
+            "value": "4",
+            "start": 30,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "columns to be normalized = 3, 4"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "value": "column1",
+            "start": 23,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 42,
+            "value": "column2",
+            "start": 35,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "apply normalization to column1 and column2"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "value": "name",
+            "start": 28,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 37,
+            "value": "age",
+            "start": 34,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 44,
+            "value": "place",
+            "start": 39,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "features to be normalized = name, age, place"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "value": "attribute 1",
+            "start": 10,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 34,
+            "value": "attribute 2",
+            "start": 23,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 47,
+            "value": "attribute 3",
+            "start": 36,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 63,
+            "value": "attribute 5",
+            "start": 52,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Normalization-Specific",
+        "text": "normalize attribute 1, attribute 2, attribute 3 and attribute 5"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "apply numerization for required columns"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "numerize uploaded dataset"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "encode object type attributes as numeric"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "numerize feature set"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "numerize dataset"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "numerize if necessary"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "apply numerization"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "numerize dataframe column and reassign dataframe column"
+      },
+      {
+        "intent": "Numerization-General",
+        "text": "to encode object type columns as numeric"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "3",
+            "start": 26,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 30,
+            "value": "5",
+            "start": 29,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Numerization-Specific",
+        "text": "columns to be numerized = 3, 5"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "column1",
+            "start": 9,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 28,
+            "value": "column 5",
+            "start": 20,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Numerization-Specific",
+        "text": "numerize column1 to column 5"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "value": "column1",
+            "start": 22,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 41,
+            "value": "column2",
+            "start": 34,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Numerization-Specific",
+        "text": "apply numerization to column1 and column2"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "name",
+            "start": 27,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 36,
+            "value": "age",
+            "start": 33,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 43,
+            "value": "place",
+            "start": 38,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Numerization-Specific",
+        "text": "features to be numerized = name, age, place"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "value": "attribute 1",
+            "start": 9,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 33,
+            "value": "attribute 2",
+            "start": 22,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 46,
+            "value": "attribute 3",
+            "start": 35,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 62,
+            "value": "attribute 5",
+            "start": 51,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Numerization-Specific",
+        "text": "numerize attribute 1, attribute 2, attribute 3 and attribute 5"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "column1",
+            "start": 9,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 29,
+            "value": "column 5",
+            "start": 21,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Numerization-Specific",
+        "text": "numerize column1 and column 5 in uploaded dataset"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "4444",
+            "start": 9,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 22,
+            "value": "9999",
+            "start": 18,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Numerization-Specific",
+        "text": "numerize 4444 and 9999 in data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 26,
+            "value": "my_array",
+            "start": 18,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "Predict clf",
+        "text": "predict class for my_array"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "list_values",
+            "start": 6,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "Predict clf",
+        "text": "parse list_values to model and obtain predicted classes"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "value": "my_list",
+            "start": 41,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "Predict clf",
+        "text": "use learned model to predict feature for my_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "value": "dp",
+            "start": 27,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "Predict clf",
+        "text": "predict relevant class for dp"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "sample data",
+            "start": 6,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "Predict clf",
+        "text": "apply sample data to the model and obtain class"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "value": "temp_list",
+            "start": 36,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "Predict clf",
+        "text": "find class for given data points in temp_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "value": "new_datapoint",
+            "start": 16,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "Predict clf",
+        "text": "predict clf for new_datapoint"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "result",
+            "start": 6,
+            "entity": "any"
+          }
+        ],
+        "intent": "Print",
+        "text": "show (result)"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "anything",
+            "start": 6,
+            "entity": "any"
+          }
+        ],
+        "intent": "Print",
+        "text": "print anything"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "words",
+            "start": 8,
+            "entity": "any"
+          }
+        ],
+        "intent": "Print",
+        "text": "display words"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "text",
+            "start": 11,
+            "entity": "any"
+          }
+        ],
+        "intent": "Print",
+        "text": "print line text"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "value": "some word pharse",
+            "start": 8,
+            "entity": "any"
+          }
+        ],
+        "intent": "Print",
+        "text": "println(some word pharse)"
+      },
+      {
+        "intent": "Print",
+        "text": "print()"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "something",
+            "start": 6,
+            "entity": "any"
+          }
+        ],
+        "intent": "Print",
+        "text": "print something"
+      },
+      {
+        "intent": "Print",
+        "text": "print"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "remove null data points in train set"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "drop data points which do not contain value for class"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "do not consider data points with empty cell in target class"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "ignore rows with no data in class feature"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "take only values not empty in class atribute"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "delete cells with null value in class column"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "remove null cells in target class"
+      },
+      {
+        "intent": "Remove Null Target Classes",
+        "text": "remove datapoints that have NULL target_class from the dataframe and reassign dataframe"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "locf",
+            "start": 32,
+            "entity": "NaN_Filling"
+          }
+        ],
+        "intent": "Replace NaN values",
+        "text": "fill incomplete values by using locf"
+      },
+      {
+        "entities": [
+          {
+            "end": 43,
+            "value": "nocf",
+            "start": 39,
+            "entity": "NaN_Filling"
+          }
+        ],
+        "intent": "Replace NaN values",
+        "text": "replace values for unfilled cells from nocf"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "value": "column4",
+            "start": 22,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 53,
+            "value": "column average",
+            "start": 39,
+            "entity": "NaN_Filling"
+          }
+        ],
+        "intent": "Replace NaN values",
+        "text": "remove null values in column4 by using column average"
+      },
+      {
+        "entities": [
+          {
+            "end": 56,
+            "value": "next observation carried forawrd",
+            "start": 24,
+            "entity": "NaN_Filling"
+          }
+        ],
+        "intent": "Replace NaN values",
+        "text": "replace NaN values with next observation carried forawrd"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "value": "last observation carried forawrd",
+            "start": 25,
+            "entity": "NaN_Filling"
+          }
+        ],
+        "intent": "Replace NaN values",
+        "text": "replace Null values with last observation carried forawrd"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "value": "column mean",
+            "start": 30,
+            "entity": "NaN_Filling"
+          }
+        ],
+        "intent": "Replace NaN values",
+        "text": "replace empty values with the column mean and reassign dataframe"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "Java",
+            "start": 33,
+            "entity": "ProgrammingLanguage"
+          }
+        ],
+        "intent": "Define language",
+        "text": "preferred programming language = Java"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "Python",
+            "start": 10,
+            "entity": "ProgrammingLanguage"
+          }
+        ],
+        "intent": "Define language",
+        "text": "associate Python to train the ML model"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "value": "R",
+            "start": 31,
+            "entity": "ProgrammingLanguage"
+          }
+        ],
+        "intent": "Define language",
+        "text": "write the source code by using R"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "python",
+            "start": 11,
+            "entity": "ProgrammingLanguage"
+          }
+        ],
+        "intent": "Define language",
+        "text": "language = python"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "R",
+            "start": 12,
+            "entity": "ProgrammingLanguage"
+          }
+        ],
+        "intent": "Define language",
+        "text": "language is R"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "value": "R",
+            "start": 4,
+            "entity": "ProgrammingLanguage"
+          }
+        ],
+        "intent": "Define language",
+        "text": "use R as the language"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "value": "python",
+            "start": 18,
+            "entity": "ProgrammingLanguage"
+          }
+        ],
+        "intent": "Define language",
+        "text": "build model using python"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "multidimensional array",
+            "start": 15,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "import library multidimensional array."
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "Numpy",
+            "start": 31,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "refer to array handler such as Numpy"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "Numpy",
+            "start": 26,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "import similar library to Numpy"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "array organizer",
+            "start": 4,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "use array organizer"
+      },
+      {
+        "entities": [
+          {
+            "end": 26,
+            "value": "array operator",
+            "start": 12,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "Use inbuilt array operator"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "multidimensional array",
+            "start": 9,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "By using multidimensional array"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "Numpy",
+            "start": 7,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "import Numpy"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "multidimensional array operator",
+            "start": 6,
+            "entity": "MDA_Operator"
+          }
+        ],
+        "intent": "Define multidimensional array operator",
+        "text": "using multidimensional array operator"
+      },
+      {
+        "intent": "Drop columns - Range",
+        "text": "drop data in column10 and column15"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "value": "2 nd column",
+            "start": 28,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 55,
+            "value": "5 th column",
+            "start": 44,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": " ignore data points between 2 nd column and 5 th column"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "feature 1",
+            "start": 5,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 27,
+            "value": "feature 5",
+            "start": 18,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "hide feature 1 to feature 5 from learning"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "distance",
+            "start": 19,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 40,
+            "value": "velocity",
+            "start": 32,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "not use attributes distance  to velocity for train the model"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "column1",
+            "start": 10,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 28,
+            "value": "column2",
+            "start": 21,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "eliminate column1 to column2 from data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "weight",
+            "start": 25,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 40,
+            "value": "length",
+            "start": 34,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "features to be ignored = weight - length"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "value": "feature 1",
+            "start": 13,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 36,
+            "value": "feature 10",
+            "start": 26,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "not consider feature 1 to feature 10"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "column1",
+            "start": 30,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 49,
+            "value": "column5",
+            "start": 42,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "delete all attributes between column1 and column5"
+      },
+      {
+        "entities": [
+          {
+            "end": 28,
+            "value": "name",
+            "start": 24,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 38,
+            "value": "sales",
+            "start": 33,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "drop columns in between name and sales"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "9999",
+            "start": 14,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 26,
+            "value": "4444",
+            "start": 22,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "drop columns, 9999 to 4444"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "column 1",
+            "start": 7,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 27,
+            "value": "column 7",
+            "start": 19,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "remove column 1 to column 7"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "value": "attribute1",
+            "start": 23,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 47,
+            "value": "attribute7",
+            "start": 37,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "ignore attributes from attribute1 to attribute7"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "value": "column3",
+            "start": 26,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "drop features in range of column3 and column5"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "findex2",
+            "start": 24,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns - Range",
+        "text": "columns to be dropped = findex2 to findex9"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "value": "2 nd column",
+            "start": 22,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 45,
+            "value": "3rd column",
+            "start": 35,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 61,
+            "value": "5 th column",
+            "start": 50,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "ignore data points in 2 nd column, 3rd column and 5 th column"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "value": "column10",
+            "start": 13,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 34,
+            "value": "column15",
+            "start": 26,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "drop data in column10 and column15"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "feature 1",
+            "start": 5,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 25,
+            "value": "feature 2",
+            "start": 16,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 36,
+            "value": "feature 3",
+            "start": 27,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 48,
+            "value": "feature 4",
+            "start": 39,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 63,
+            "value": "feature 5",
+            "start": 54,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "hide feature 1, feature 2, feature 3 , feature 4 and  feature 5 from learning"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "distance",
+            "start": 8,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 29,
+            "value": "velocity",
+            "start": 21,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "not use distance and velocity for train the model"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "column1",
+            "start": 10,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 29,
+            "value": "column2",
+            "start": 22,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "eliminate column1 and column2 from data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "weight",
+            "start": 25,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 39,
+            "value": "height",
+            "start": 33,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 47,
+            "value": "length",
+            "start": 41,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "features to be ignored = weight, height, length"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "price",
+            "start": 13,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 25,
+            "value": "sales",
+            "start": 20,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "not consider price, sales"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "column1",
+            "start": 7,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 23,
+            "value": "column4",
+            "start": 16,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 35,
+            "value": "column6",
+            "start": 28,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "delete column1, column4 and column6"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "findex2",
+            "start": 24,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 40,
+            "value": "findex9",
+            "start": 33,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "columns to be dropped = findex2, findex9"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "findex2",
+            "start": 5,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "drop findex2"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "4444",
+            "start": 7,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 20,
+            "value": "findex1",
+            "start": 13,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 29,
+            "value": "findex2",
+            "start": 22,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 38,
+            "value": "findex9",
+            "start": 31,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "ignore 4444, findex1, findex2, findex9  columns"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "9999",
+            "start": 7,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "remove 9999 column"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "9999, 4444",
+            "start": 13,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "drop columns 9999, 4444"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "9999dr",
+            "start": 12,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Drop columns",
+        "text": "drop column 9999dr"
+      },
+      {
+        "intent": "Else condition",
+        "text": "in case, the condition is not satisfied"
+      },
+      {
+        "intent": "Else condition",
+        "text": "if not the the case,"
+      },
+      {
+        "intent": "Else condition",
+        "text": "otherwise,"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "any",
+            "start": 6,
+            "entity": "any"
+          }
+        ],
+        "intent": "Else condition",
+        "text": "else (any)."
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "any",
+            "start": 10,
+            "entity": "any"
+          }
+        ],
+        "intent": "Else condition",
+        "text": "else then any,"
+      },
+      {
+        "intent": "Else condition",
+        "text": "else, then"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "any",
+            "start": 5,
+            "entity": "any"
+          }
+        ],
+        "intent": "Else condition",
+        "text": "else any,"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "any",
+            "start": 8,
+            "entity": "any"
+          }
+        ],
+        "intent": "Else condition",
+        "text": "else if any"
+      },
+      {
+        "intent": "Else condition",
+        "text": "else,"
+      },
+      {
+        "intent": "Else condition",
+        "text": "IF not,"
+      },
+      {
+        "intent": "Else condition",
+        "text": "if not"
+      },
+      {
+        "intent": "End of for loop",
+        "text": "end of for"
+      },
+      {
+        "intent": "End of for loop",
+        "text": "conclude for loop"
+      },
+      {
+        "intent": "End of for loop",
+        "text": "break the for loop"
+      },
+      {
+        "intent": "End of for loop",
+        "text": "stop for loop"
+      },
+      {
+        "intent": "End of for loop",
+        "text": "terminate for loop"
+      },
+      {
+        "intent": "End of for loop",
+        "text": "escape from for loop"
+      },
+      {
+        "intent": "End of for loop",
+        "text": "end of for loop"
+      },
+      {
+        "intent": "End of IF",
+        "text": "end of if condition"
+      },
+      {
+        "intent": "End of IF",
+        "text": "escape from if"
+      },
+      {
+        "intent": "End of IF",
+        "text": "close the if condition"
+      },
+      {
+        "intent": "End of IF",
+        "text": "terminate if statement"
+      },
+      {
+        "intent": "End of IF",
+        "text": "stop if condition"
+      },
+      {
+        "intent": "End of IF",
+        "text": "end of else"
+      },
+      {
+        "intent": "End of IF",
+        "text": "end of IF"
+      },
+      {
+        "intent": "End of IF",
+        "text": "conclude IF condition"
+      },
+      {
+        "intent": "End of while loop",
+        "text": "end of while"
+      },
+      {
+        "intent": "End of while loop",
+        "text": "escape from while loop"
+      },
+      {
+        "intent": "End of while loop",
+        "text": "terminate while loop"
+      },
+      {
+        "intent": "End of while loop",
+        "text": "end of while loop"
+      },
+      {
+        "intent": "End of while loop",
+        "text": "stop while loop"
+      },
+      {
+        "intent": "End of while loop",
+        "text": "break the while loop"
+      },
+      {
+        "intent": "End of while loop",
+        "text": "conclude while loop"
+      },
+      {
+        "intent": "End",
+        "text": "conclude steps"
+      },
+      {
+        "intent": "End",
+        "text": "quite algorithm"
+      },
+      {
+        "intent": "End",
+        "text": "finish ML program"
+      },
+      {
+        "intent": "End",
+        "text": "close the application"
+      },
+      {
+        "intent": "End",
+        "text": "terminate the program"
+      },
+      {
+        "intent": "End",
+        "text": "end of the pseudo code"
+      },
+      {
+        "intent": "End",
+        "text": "terminate classification"
+      },
+      {
+        "intent": "End",
+        "text": "stop algorithm"
+      },
+      {
+        "intent": "End",
+        "text": "stop"
+      },
+      {
+        "intent": "End",
+        "text": "End"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "88",
+            "start": 4,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "for 88 iterations"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "40",
+            "start": 23,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "repeat the process for 40 iterations"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "4",
+            "start": 18,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "for temp in range(4, 8)"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "7",
+            "start": 15,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "for x in range(7)"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "34,",
+            "start": 22,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "for the range of 6 to 34,"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "10",
+            "start": 9,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "for (x = 10, x=0, x--){"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "15",
+            "start": 13,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "repeat until 15"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "10",
+            "start": 11,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "repeat for 10 times"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "30",
+            "start": 4,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "for 30 times"
+      },
+      {
+        "entities": [
+          {
+            "end": 4,
+            "value": "7",
+            "start": 3,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "do 7 number of iterations"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "5",
+            "start": 15,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "for(int i=0; i<5; i++)"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "10",
+            "start": 17,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "run for loop for 10 times"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "5",
+            "start": 8,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "For Loop",
+        "text": "iterate 5 times"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "5",
+            "start": 15,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "learn by using 5 neighbors"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "value": "45",
+            "start": 18,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "k value in KNN is 45"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "value": "4",
+            "start": 13,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "value of k = 4"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "5",
+            "start": 7,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "assign 5 to K"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "value": "2",
+            "start": 4,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "K = 2"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "3",
+            "start": 5,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "k is 3"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "value": "7",
+            "start": 5,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "N is 7"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "value": "4",
+            "start": 4,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "N = 4"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "10",
+            "start": 9,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "consider 10 neighbors"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "5",
+            "start": 18,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "Define K in KNN",
+        "text": "No of neighbors = 5"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "column",
+            "start": 17,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 38,
+            "value": "dataset",
+            "start": 31,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "iterate for each column in the dataset,"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "items",
+            "start": 31,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 57,
+            "value": "my_array",
+            "start": 49,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "initialize a for each loop for items in the list my_array"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "member",
+            "start": 21,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 40,
+            "value": "array",
+            "start": 35,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "iterate through each member in the array"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "item",
+            "start": 11,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 30,
+            "value": "my_list",
+            "start": 23,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "do to each item in the my_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "value": "member",
+            "start": 16,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 40,
+            "value": "given_list",
+            "start": 30,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "apply for every member in the given_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "element",
+            "start": 4,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 25,
+            "value": "given_list",
+            "start": 15,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "for element in given_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "k",
+            "start": 10,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 19,
+            "value": "keys",
+            "start": 15,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "for every k in keys"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "value": "e",
+            "start": 4,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 17,
+            "value": "elements",
+            "start": 9,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "for e in elements :"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "item",
+            "start": 4,
+            "entity": "temp_variable"
+          },
+          {
+            "end": 21,
+            "value": "item_list",
+            "start": 12,
+            "entity": "list_variable"
+          }
+        ],
+        "intent": "ForEach Loop",
+        "text": "for item in item_list"
+      },
+      {
+        "intent": "SplitDataset-Test - custom",
+        "text": "assign 0.15 for the double variable"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "0.25",
+            "start": 12,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test - custom",
+        "text": "test size = 0.25"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "0.5",
+            "start": 7,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test - custom",
+        "text": "test = 0.5"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "0.4",
+            "start": 7,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test - custom",
+        "text": "assign 0.4 to variable test"
+      },
+      {
+        "entities": [
+          {
+            "end": 44,
+            "value": "F",
+            "start": 43,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "initialize an empty integer variable named F"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "value": "lolly",
+            "start": 40,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "declare an empty variable with the name lolly"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "d",
+            "start": 16,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "create variable d"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "value": "tizzle",
+            "start": 24,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "create a variable named tizzle"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "my_height",
+            "start": 0,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "my_height is a null variable"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "value": "any_name",
+            "start": 25,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "initialize a variable as any_name"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "weight",
+            "start": 31,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "define a string variable named weight"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "value": "weight",
+            "start": 39,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "define a floating point variable named weight"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "value": "pepper",
+            "start": 16,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "define variable pepper"
+      },
+      {
+        "entities": [
+          {
+            "end": 34,
+            "value": "length",
+            "start": 28,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "allocate memory to variable length"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "uft",
+            "start": 24,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "define a variable named uft"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "value": "weight",
+            "start": 33,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define a variable",
+        "text": "define an integer variable named weight"
+      },
+      {
+        "entities": [
+          {
+            "end": 57,
+            "value": "NN",
+            "start": 55,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "define variable clf and classify X_train y_train using NN"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "value": "LR",
+            "start": 30,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "apply classification by using LR"
+      },
+      {
+        "entities": [
+          {
+            "end": 26,
+            "value": "Naive Bayes classifier",
+            "start": 4,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "use Naive Bayes classifier to learn the model"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "K-means",
+            "start": 24,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "clustering algorithm is K-means"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "Random Forest",
+            "start": 24,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "build model by applying Random Forest"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "Neural Network",
+            "start": 22,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "train the model using Neural Network"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "regression",
+            "start": 15,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "classify using regression"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "LinearSVC",
+            "start": 14,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "classifier is LinearSVC"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "Logistic Regression",
+            "start": 6,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "clf = Logistic Regression"
+      },
+      {
+        "entities": [
+          {
+            "end": 39,
+            "value": "MultinomialNB",
+            "start": 26,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "classify data frame using MultinomialNB"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "DTC",
+            "start": 12,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "Algorithm = DTC"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "K-Means",
+            "start": 6,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "Apply K-Means"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "KNN",
+            "start": 4,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "use KNN classifiction"
+      },
+      {
+        "entities": [
+          {
+            "end": 34,
+            "value": "support vector machine",
+            "start": 12,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "By applying support vector machine"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "ANN",
+            "start": 4,
+            "entity": "Algorithms"
+          }
+        ],
+        "intent": "Define Algorithm",
+        "text": "use ANN"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "value": "my_array",
+            "start": 37,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "declare an empty array with the name my_array"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "e",
+            "start": 12,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "create list e"
+      },
+      {
+        "entities": [
+          {
+            "end": 28,
+            "value": "tizzle",
+            "start": 22,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "create an array named tizzle"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "my_height",
+            "start": 0,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "my_height is a empty list"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "value": "any_name",
+            "start": 21,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "initialize a list as any_name"
+      },
+      {
+        "entities": [
+          {
+            "end": 34,
+            "value": "weights",
+            "start": 27,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define a string list named weights"
+      },
+      {
+        "entities": [
+          {
+            "end": 42,
+            "value": "weight",
+            "start": 36,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define a floating point array named weight"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "weights",
+            "start": 29,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define an integer list named weights"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "uft",
+            "start": 20,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define a list named uft"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "value": "fruits",
+            "start": 24,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "allocate memory to list fruits"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "pepper",
+            "start": 12,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define list pepper"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "value": "basic_array",
+            "start": 13,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "create array basic_array"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "my_height",
+            "start": 0,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "my_height is a null array"
+      },
+      {
+        "entities": [
+          {
+            "end": 34,
+            "value": "weight",
+            "start": 28,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define a string array named weight"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "value": "weight_list",
+            "start": 30,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define an integer array named weight_list"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "uft",
+            "start": 28,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define an empty array named uft"
+      },
+      {
+        "entities": [
+          {
+            "end": 33,
+            "value": "my_array",
+            "start": 25,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "allocate memory to array my_array"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "pep",
+            "start": 13,
+            "entity": "any"
+          }
+        ],
+        "intent": "Define an array",
+        "text": "define array pep"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "column3",
+            "start": 4,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "use column3 as the class"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "value": "price",
+            "start": 40,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "define variable target class and assign price as class"
+      },
+      {
+        "entities": [
+          {
+            "end": 36,
+            "value": "Price",
+            "start": 31,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "define variable cls with value Price, use cls as the class"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "my_class",
+            "start": 11,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "feature is my_class"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "sales",
+            "start": 18,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "targeted class is sales"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "value": "column4",
+            "start": 38,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "target class is a variable with value column4"
+      },
+      {
+        "entities": [
+          {
+            "end": 52,
+            "value": "TARGET_CLASS",
+            "start": 40,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "define variable target_class and assign TARGET_CLASS"
+      },
+      {
+        "entities": [
+          {
+            "end": 34,
+            "value": "SL_win",
+            "start": 28,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "feature to be classified is SL_win"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "my_class",
+            "start": 5,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "take my_class as the class"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "value": "@ds_attributes",
+            "start": 7,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "define @ds_attributes as class"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "rating_text",
+            "start": 8,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "class = rating_text"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "rating_text",
+            "start": 6,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "class rating_text"
+      },
+      {
+        "entities": [
+          {
+            "end": 26,
+            "value": "currency",
+            "start": 18,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "class attribute = currency"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "value": "pass",
+            "start": 15,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "ground truth = pass"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "value": "raining",
+            "start": 4,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "use raining as class"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "SL_win",
+            "start": 9,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "class is SL_win"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "play_golf",
+            "start": 8,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define Class",
+        "text": "class = play_golf"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "value": "dataframe",
+            "start": 15,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "import library dataframe."
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "Pandas",
+            "start": 4,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "use Pandas or similar library"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "value": "data frame handler",
+            "start": 4,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "use data frame handler"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "Pandas",
+            "start": 7,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "import Pandas as pd"
+      },
+      {
+        "entities": [
+          {
+            "end": 27,
+            "value": "data frame generator",
+            "start": 7,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "import data frame generator"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "data_frame_library",
+            "start": 5,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "from data_frame_library"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "value": "Pandas",
+            "start": 7,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "import Pandas"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "value": "data manipulation library",
+            "start": 7,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "import data manipulation library"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "Pandas",
+            "start": 9,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "By using Pandas"
+      },
+      {
+        "entities": [
+          {
+            "end": 41,
+            "value": "data manipulation library",
+            "start": 16,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "I want to use a data manipulation library"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "value": "data manipulation library",
+            "start": 4,
+            "entity": "DataManipulationLibrary"
+          }
+        ],
+        "intent": "Define data manipulation library",
+        "text": "use data manipulation library"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "name",
+            "start": 19,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 30,
+            "value": "state",
+            "start": 25,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 39,
+            "value": "account",
+            "start": 32,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 47,
+            "value": "created",
+            "start": 40,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 56,
+            "value": "country",
+            "start": 49,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "define feature set name, state, account created, country"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "attribute 1",
+            "start": 4,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 28,
+            "value": "attribute 2",
+            "start": 17,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 41,
+            "value": "attribute 3",
+            "start": 30,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 55,
+            "value": "attribute 4",
+            "start": 44,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 72,
+            "value": "attribute 5",
+            "start": 61,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "use attribute 1, attribute 2, attribute 3 , attribute 4 and  attribute 5 for learning"
+      },
+      {
+        "entities": [
+          {
+            "end": 37,
+            "value": "weight",
+            "start": 31,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 45,
+            "value": "height",
+            "start": 39,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 54,
+            "value": "length",
+            "start": 48,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "features to be used to learn = weight, height,  length"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "value": "9999",
+            "start": 21,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 31,
+            "value": "4444",
+            "start": 27,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "selected features =  9999, 4444"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "4444",
+            "start": 4,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 17,
+            "value": "findex1",
+            "start": 10,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 26,
+            "value": "findex2",
+            "start": 19,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 35,
+            "value": "findex9",
+            "start": 28,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "use 4444, findex1, findex2, findex9  columns"
+      },
+      {
+        "entities": [
+          {
+            "end": 34,
+            "value": "findex2",
+            "start": 27,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 43,
+            "value": "findex9",
+            "start": 36,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "columns to be considered = findex2, findex9"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "column 1",
+            "start": 15,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 34,
+            "value": "column 2",
+            "start": 26,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 47,
+            "value": "column 6",
+            "start": 39,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "attributes are column 1 , column 2 and column 6"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "runs",
+            "start": 11,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 24,
+            "value": "wickets",
+            "start": 17,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 37,
+            "value": "no_of_100's",
+            "start": 26,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 46,
+            "value": "average",
+            "start": 39,
+            "entity": "ds_attributes"
+          },
+          {
+            "end": 59,
+            "value": "strke_rates",
+            "start": 48,
+            "entity": "ds_attributes"
+          }
+        ],
+        "intent": "Define features",
+        "text": "features = runs, wickets, no_of_100's, average, strke_rates"
+      },
+      {
+        "entities": [
+          {
+            "end": 29,
+            "value": "0.25",
+            "start": 25,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "split size for testing = 0.25"
+      },
+      {
+        "entities": [
+          {
+            "end": 65,
+            "value": "0.45",
+            "start": 61,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "declare a floating point variable called test_set and assign 0.45 to it"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "28%",
+            "start": 4,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "use 28% of the source data to testing"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "60%",
+            "start": 4,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "use 60% data for testing"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "0.6",
+            "start": 12,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "test set is 0.6 of data set"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "0.1",
+            "start": 4,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "use 0.1 from the data set for validation"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "0.256",
+            "start": 13,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "validation = 0.256"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "0.3",
+            "start": 28,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "split dataset by allocating 0.3 for testing"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "0.24",
+            "start": 19,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "test,train ratio = 0.24"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "35%",
+            "start": 9,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "allocate 35% for testing"
+      },
+      {
+        "entities": [
+          {
+            "end": 45,
+            "value": "0.78",
+            "start": 41,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "define a variable called test and assign 0.78 to it"
+      },
+      {
+        "entities": [
+          {
+            "end": 3,
+            "value": "35%",
+            "start": 0,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "35% for testing"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "0.3",
+            "start": 12,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Test",
+        "text": "test size = 0.3"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "value": "0.75",
+            "start": 18,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train - custom",
+        "text": "value of train is 0.75"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "0.67",
+            "start": 8,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train - custom",
+        "text": "train = 0.67"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "value": "0.9",
+            "start": 7,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train - custom",
+        "text": "assign 0.9 to double variable x"
+      },
+      {
+        "entities": [
+          {
+            "end": 48,
+            "value": "0.67",
+            "start": 44,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "create a variable named training and assign 0.67 to train"
+      },
+      {
+        "entities": [
+          {
+            "end": 30,
+            "value": "0.85",
+            "start": 26,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "split size for training = 0.85"
+      },
+      {
+        "entities": [
+          {
+            "end": 66,
+            "value": "0.78",
+            "start": 62,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "declare a floating point variable called train_set and assign 0.78 to it"
+      },
+      {
+        "entities": [
+          {
+            "end": 49,
+            "value": "0.4",
+            "start": 46,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "split dataset in to train and test with ratio 0.4"
+      },
+      {
+        "entities": [
+          {
+            "end": 31,
+            "value": "55%",
+            "start": 28,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "split dataset by allocating 55% for training"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "78%",
+            "start": 4,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "use 78% of the source data to learning"
+      },
+      {
+        "entities": [
+          {
+            "end": 17,
+            "value": "0.79",
+            "start": 13,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "train set is 0.79"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "60%",
+            "start": 4,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "use 60% data for training"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "0.2",
+            "start": 4,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "use 0.2 of data for build the model"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "0.4",
+            "start": 15,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "training set = 0.4"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "value": "0.48",
+            "start": 19,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "train/test ratio = 0.48"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "value": "60%",
+            "start": 9,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "allocate 60% for training"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "value": "80%",
+            "start": 6,
+            "entity": "percentage"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "train 80%"
+      },
+      {
+        "entities": [
+          {
+            "end": 54,
+            "value": "0.89",
+            "start": 50,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "define a floating point variable train and assign 0.89"
+      },
+      {
+        "entities": [
+          {
+            "end": 51,
+            "value": "0.78",
+            "start": 47,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "define double variable called train with value 0.78"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "value": "0.5",
+            "start": 15,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "train ratio is 0.5"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "value": "0.8",
+            "start": 4,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "use 0.8 to train the model"
+      },
+      {
+        "entities": [
+          {
+            "end": 4,
+            "value": "0.75",
+            "start": 0,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "0.75 for training"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "value": "0.7",
+            "start": 13,
+            "entity": "number"
+          }
+        ],
+        "intent": "SplitDataset-Train",
+        "text": "train size = 0.7"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "split dataset"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "split dataset in to test and train"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "put train and test sets in to separate data frames"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "separate training and testing sets"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "split dataset by split_ratio"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "define train and validate sets and classes"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "assign train set to X_train, y_train and test set to X_test, y_test"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "assign test set to X_test and test class to y_test"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "assign train set to X_train and train class to y_train"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "separate data set for training and validation"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "divide dataset in to training and testing sets"
+      },
+      {
+        "intent": "SplitDataset",
+        "text": "split dataframe feature set and target class"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "create the model"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "build model"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "implement clustering algorithm"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "start above mentioned algorithm"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "Apply ml algorithm to data set"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "Begin clustering"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "implement algorithm"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "Apply algorithm"
+      },
+      {
+        "intent": "Start Algorithm",
+        "text": "Start classification"
+      },
+      {
+        "intent": "While_Loop - custom(content)",
+        "text": "any string"
+      },
+      {
+        "intent": "While_Loop - custom(content)",
+        "text": "any word pharse"
+      },
+      {
+        "intent": "While_Loop - custom(content)",
+        "text": "anything"
+      },
+      {
+        "intent": "While_Loop - custom(content)",
+        "text": "something"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "value": "given condition",
+            "start": 6,
+            "entity": "any"
+          }
+        ],
+        "intent": "While_Loop",
+        "text": "while given condition is True"
+      },
+      {
+        "intent": "While_Loop",
+        "text": "do infinitely"
+      },
+      {
+        "intent": "While_Loop",
+        "text": "while()"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "value": "something",
+            "start": 6,
+            "entity": "any"
+          }
+        ],
+        "intent": "While_Loop",
+        "text": "while something:"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "value": "1",
+            "start": 7,
+            "entity": "number-integer"
+          }
+        ],
+        "intent": "While_Loop",
+        "text": "while (1):"
+      },
+      {
+        "intent": "While_Loop",
+        "text": "white true"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "K-Means",
+          "k means cluster",
+          "K-Means Clustering"
+        ],
+        "value": "k-means"
+      },
+      {
+        "synonyms": [
+          "column5"
+        ],
+        "value": "beds"
+      },
+      {
+        "synonyms": [
+          "sum/count",
+          "Column Mean",
+          "mean",
+          "avg",
+          "column average",
+          "Average",
+          "Mean"
+        ],
+        "value": "column mean"
+      },
+      {
+        "synonyms": [
+          "naive bayes classification",
+          "Naive Bayes",
+          "Naive Bayes classifier"
+        ],
+        "value": "naive bayes"
+      },
+      {
+        "synonyms": [
+          "DataVisualization Library",
+          "matplotlib",
+          "Gleam",
+          "Seaborn",
+          "Plotly",
+          "missingno",
+          "Bokeh",
+          "geoplotlib",
+          "pygal",
+          "data visualization library",
+          "ggplot",
+          "Leather",
+          "Data Visualization"
+        ],
+        "value": "DataVisualization"
+      },
+      {
+        "synonyms": [
+          "train_test split",
+          "TrainTestSplit",
+          "Train Test Split",
+          "Train-Test Split",
+          "train_test_split"
+        ],
+        "value": "MLlibrary TrainTestSplit"
+      },
+      {
+        "synonyms": [
+          "Artificial Neural Network"
+        ],
+        "value": "ANN"
+      },
+      {
+        "synonyms": [
+          "MultinomialNB",
+          "MNB"
+        ],
+        "value": "Multinomial Naive Bayes"
+      },
+      {
+        "synonyms": [
+          "java",
+          "JA"
+        ],
+        "value": "Java"
+      },
+      {
+        "synonyms": [
+          "0",
+          "false"
+        ],
+        "value": "False"
+      },
+      {
+        "synonyms": [
+          "js",
+          "JS"
+        ],
+        "value": "JavaScript"
+      },
+      {
+        "synonyms": [
+          "LogisticRegression",
+          "LR",
+          "Linear Classifier",
+          "logistic_regression",
+          "logistic regression"
+        ],
+        "value": "Logistic Regression"
+      },
+      {
+        "synonyms": [
+          "MultiNB",
+          "multinomial nb"
+        ],
+        "value": "MultinomialNB"
+      },
+      {
+        "synonyms": [
+          "queue",
+          "int list",
+          "set",
+          "String array",
+          "String list",
+          "array",
+          "string array",
+          "int array",
+          "float array",
+          "array list",
+          "integer list",
+          "numbers array",
+          "float list",
+          "integer array",
+          "double array"
+        ],
+        "value": "list"
+      },
+      {
+        "synonyms": [
+          "Random Forest Classification",
+          "RF classification",
+          "random forrest",
+          "RF",
+          "Random Forrest",
+          "random forest classifier"
+        ],
+        "value": "Random Forest"
+      },
+      {
+        "synonyms": [
+          "increase",
+          "add",
+          "plus"
+        ],
+        "value": "+"
+      },
+      {
+        "synonyms": [
+          "Standard Scaler",
+          "standard_scaler_class",
+          "standard_scaler"
+        ],
+        "value": "standard scaler"
+      },
+      {
+        "synonyms": [
+          "Decision Tree Classifier",
+          "Decision Tree",
+          "DTC"
+        ],
+        "value": "Decision Tree Classification"
+      },
+      {
+        "synonyms": [
+          "flask"
+        ],
+        "value": "Flask"
+      },
+      {
+        "synonyms": [
+          "Label_Encoder",
+          "label_encoder",
+          "label encoder",
+          "labelencoder",
+          "le",
+          "LabelEncoder",
+          "Label Encoder",
+          "LE"
+        ],
+        "value": "MLlibrary Label Encoder"
+      },
+      {
+        "synonyms": [
+          "minus",
+          "decrease",
+          "subtract"
+        ],
+        "value": "-"
+      },
+      {
+        "synonyms": [
+          "locf",
+          "last observation"
+        ],
+        "value": "last observation carried forawrd"
+      },
+      {
+        "synonyms": [
+          "divide",
+          "÷"
+        ],
+        "value": "/"
+      },
+      {
+        "synonyms": [
+          "GNB",
+          "Gausian NB",
+          "GausianNB",
+          "gaussian naive bayes"
+        ],
+        "value": "Gaussian Naive Bayes"
+      },
+      {
+        "synonyms": [
+          "data manipulator",
+          "Data Frame",
+          "data_frame_library",
+          "data frame",
+          "data manipulation library",
+          "Pandas",
+          "pd",
+          "data frame handler",
+          "dataframe",
+          "library dataframe",
+          "data frame generator",
+          "data_frame_generator",
+          "Data Frame Library",
+          "data_frame",
+          "data_manipulation_library"
+        ],
+        "value": "Data Manipulation Library"
+      },
+      {
+        "synonyms": [
+          "Confusion Matrix",
+          "confusion matrix",
+          "confusion_matrix",
+          "ConfusionMatrix"
+        ],
+        "value": "MLlibrary Confusion Matrix"
+      },
+      {
+        "synonyms": [
+          "column10"
+        ],
+        "value": "price"
+      },
+      {
+        "synonyms": [
+          "column9"
+        ],
+        "value": "sale_date"
+      },
+      {
+        "synonyms": [
+          "label encoder class",
+          "label_encoder_class"
+        ],
+        "value": "label encoder"
+      },
+      {
+        "synonyms": [
+          "preprocessing_scaler",
+          "preprocessing.scale",
+          "preprocessing.Scale",
+          "preprocessing.StandardScaler",
+          "Preprocessing Scaler",
+          "PreprocessingScaler",
+          "StandardScaler"
+        ],
+        "value": "MLlibrary Preprocessing Scaler"
+      },
+      {
+        "synonyms": [
+          "numpy",
+          "Array Manipulator",
+          "MDA operator",
+          "multidimensional array operator",
+          "np",
+          "Array Manager",
+          "Multi Dimentional Array",
+          "multidimentional array",
+          "array organizer",
+          "array handler",
+          "Array Handler",
+          "Multi Dimensional Array Operator",
+          "Array Operator",
+          "Numpy"
+        ],
+        "value": "MultiDimensional Array Operator"
+      },
+      {
+        "synonyms": [
+          "column2"
+        ],
+        "value": "city"
+      },
+      {
+        "synonyms": [
+          "column1"
+        ],
+        "value": "street"
+      },
+      {
+        "synonyms": [
+          "Regression"
+        ],
+        "value": "regression"
+      },
+      {
+        "synonyms": [
+          "machine learning package",
+          "Machine Learning Package",
+          "ML Library",
+          "Machine Learner",
+          "machine learning library",
+          "Machine Learning Library",
+          "ML package"
+        ],
+        "value": "machine learning module"
+      },
+      {
+        "synonyms": [
+          "preprocessing library"
+        ],
+        "value": "preprocessing"
+      },
+      {
+        "synonyms": [
+          "column6"
+        ],
+        "value": "baths"
+      },
+      {
+        "synonyms": [
+          "Tfidf Vectorizer",
+          "TFIDF Feature Extractor",
+          "tfidf feature extractor",
+          "TFIDF_Feature_Extractor",
+          "TfidfVectorizer",
+          "TFIDF Vectorizer"
+        ],
+        "value": "MLlibrary tfidf feature extractor"
+      },
+      {
+        "synonyms": [
+          "sklearn",
+          "SKLearn",
+          "SKLearn Module",
+          "Scikit Learn",
+          "SK-Learn",
+          "scikit package",
+          "sk learn",
+          "Scikit",
+          "scikit learn"
+        ],
+        "value": "scikit"
+      },
+      {
+        "synonyms": [
+          "not"
+        ],
+        "value": "!"
+      },
+      {
+        "synonyms": [
+          "column11"
+        ],
+        "value": "latitude"
+      },
+      {
+        "synonyms": [
+          "column7"
+        ],
+        "value": "sq__ft"
+      },
+      {
+        "synonyms": [
+          "1",
+          "true"
+        ],
+        "value": "True"
+      },
+      {
+        "synonyms": [
+          "column12"
+        ],
+        "value": "longitude"
+      },
+      {
+        "synonyms": [
+          "subtract by 1",
+          "-1"
+        ],
+        "value": "--"
+      },
+      {
+        "synonyms": [
+          "dbscan clustering"
+        ],
+        "value": "DBSCAN"
+      },
+      {
+        "synonyms": [
+          "+1",
+          "increment by one"
+        ],
+        "value": "++"
+      },
+      {
+        "synonyms": [
+          "Sacramentorealestatetransactions.csv"
+        ],
+        "value": "sacramentorealestatetransactions.csv"
+      },
+      {
+        "synonyms": [
+          "knn",
+          "knn classification",
+          "k nearest neighbor",
+          "k-nearest neghbors",
+          "K-Nearest_Neighbor"
+        ],
+        "value": "KNN"
+      },
+      {
+        "synonyms": [
+          "TS",
+          "Time_Series",
+          "time series",
+          "time_series"
+        ],
+        "value": "Time Series"
+      },
+      {
+        "synonyms": [
+          "is",
+          "==",
+          "equal",
+          "equals",
+          "equal to"
+        ],
+        "value": "="
+      },
+      {
+        "synonyms": [
+          "RSVC",
+          "RadialSVC",
+          "radial svc"
+        ],
+        "value": "Radial SVC"
+      },
+      {
+        "synonyms": [
+          "column3"
+        ],
+        "value": "zip"
+      },
+      {
+        "synonyms": [
+          "next observation",
+          "NOCF",
+          "nocf"
+        ],
+        "value": "next observation carried forawrd"
+      },
+      {
+        "synonyms": [
+          "ML Library in R",
+          "E 1070",
+          "E1070"
+        ],
+        "value": "e1070"
+      },
+      {
+        "synonyms": [
+          "Count Vectorizer",
+          "CountVectorizer",
+          "count vectorizer",
+          "count_vectorizer",
+          "feature_extraction.CountVectorizer"
+        ],
+        "value": "MLlibrary CountVectorizer"
+      },
+      {
+        "synonyms": [
+          "Py",
+          "python"
+        ],
+        "value": "Python"
+      },
+      {
+        "synonyms": [
+          "column4"
+        ],
+        "value": "state"
+      },
+      {
+        "synonyms": [
+          "4444"
+        ],
+        "value": "9999"
+      },
+      {
+        "synonyms": [
+          "column8"
+        ],
+        "value": "type"
+      },
+      {
+        "synonyms": [
+          "Linear_SVC",
+          "linear svc",
+          "Linear SVC"
+        ],
+        "value": "LinearSVC"
+      },
+      {
+        "synonyms": [
+          "neural network",
+          "NN"
+        ],
+        "value": "Neural Network"
+      },
+      {
+        "synonyms": [
+          "not equal",
+          "!==",
+          "not equals"
+        ],
+        "value": "!="
+      },
+      {
+        "synonyms": [
+          "Support Vector Machine",
+          "support vector"
+        ],
+        "value": "SVM"
+      },
+      {
+        "synonyms": [
+          "multiply"
+        ],
+        "value": "×"
+      }
+    ]
+  }
+}

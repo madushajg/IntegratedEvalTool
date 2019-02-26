@@ -1,0 +1,6 @@
+dialogflow vs rasa core
+	- intents
+	- entities
+machine learning model (when change the corpus size)
+dialogflow vs machine learning model
+dialogflow vs entity recognition module

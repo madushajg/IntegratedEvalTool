@@ -1,0 +1,197 @@
+import library dataframe
+import library Time Series
+@ import library MLlibrary Gaussian Naive Bayes
+# import library MLLibrary
+@ import library MLlibrary Multinomial Naive Bayes
+$ import library MLLibrary
+@ import library MLlibrary Naive Bayes
+# import library MLLibrary
+@ import library MLlibrary SVM
+$ import library MLLibrary
+import library MLlibrary Random Forest
+import library MLlibrary KNN
+import library MLlibrary Decision Tree
+import library MLlibrary ANN
+define empty array STRING_ARRAY
+define empty array INTEGER_ARRAY
+define empty array FLOAT_ARRAY
+define empty array OBJECT_ARRAY
+define array STRING_ARRAY with values STRING_VALUES
+define array INTEGER_ARRAY with values INTEGER_VALUES
+define array FLOAT_ARRAY with values FLOAT_VALUES
+define array OBJECT_ARRAY with values OBJECTS
+append STRING_VALUE to array STRING_ARRAY
+append INTEGER_VALUE to array INTEGER_ARRAY
+append FLOAT_VALUE to array FLOAT_ARRAY
+append OBJECT to array OBJECT_ARRAY
+define variable k and assign NEIGHBOURS
+define variable VAR and assign VAR_VALUE
+define variable df and read dataset DATASET csv file
+define variable df read dataset DATA text file seperated by space
+define variable df read dataset DATASET text file seperated by comma
+define variable df read dataset DATA text file seperated by tab
+define variable df read dataset DATASET tsv file
+define array features and assign FEATURE_SET
+define variable split and assign SPLIT_RATIO
+define variable splitAlt and assign SPLIT_RATIO_ALT
+define variable target_class and assign TARGET_CLASS
+define variable final dataframe and reassign dataframe with features and target_class
+define variable final daf and reassign daf with featureset and target
+define variable final daf and reassign daf with features and target
+define variable final dataframe and reassign dataframe with featureset and target_class
+@ remove datapoints that have NULL target_class from the dataframe and reassign dataframe
+# define variable completeVec and remove datapoints that have NULL target_class from the dataframe
+# filter completeVec from dataframe and reassign dataframe
+drop attribute ATTRIBUTE from dataframe
+drop attributes ATTRIBUTES from dataframe
+drop attribute ATTRIBUTE from daf
+drop attributes ATTRIBUTES from daf
+# iterate for RANDOM_NUMBER times
+# close loop
+$ iterate for RANDOM_NUMBER1 times
+$ close loop
+# iterate for RANDOM_NUMBER2 times
+# close loop
+$ iterate for RANDOM_NUMBER3 times
+$ close loop
+# iterate for each ELEMENT in RANDOM_LIST
+# close loop
+$ iterate for each ELEMENT1 in RANDOM_LIST1
+$ close loop
+# iterate for each ELEMENT2 in RANDOM_LIST2
+# close loop
+$ iterate for each ELEMENT3 in RANDOM_LIST3
+$ close loop
+# if RANDOM_VAR is not equals to RANDOM_VAL
+# close condition
+$ if RANDOM_VAR1 is not equals to RANDOM_VAL1
+$ close condition
+# if RANDOM_VAR2 is smaller than RANDOM_VAL2
+# close condition
+$ if RANDOM_VAR3 is smaller than RANDOM_VAL3
+$ close condition
+# if RANDOM_VAR4 is equals to RANDOM_VAL4
+# close condition
+$ if RANDOM_VAR5 is equals to RANDOM_VAL5
+$ close condition
+# if RANDOM_VAR6 is greater than RANDOM_VAL6
+# close condition
+$ if RANDOM_VAR7 is greater than RANDOM_VAL7
+$ close condition
+# if RANDOM_VAR8 is greater than or equal to RANDOM_VAL8
+# close condition
+$ if RANDOM_VAR9 is greater than or equal to RANDOM_VAL9
+$ close condition
+# if RANDOM_VAR10 is less than or equal to RANDOM_VAL10
+# close condition
+$ if RANDOM_VAR11 is less than or equal to RANDOM_VAL11
+$ close condition
+# iterate for number of columns of df
+# if the df column is a numeric column
+# replace NaN values with the df column mean and reassign dataframe
+# close condition
+# close loop
+iterate for number of columns of daf
+if the daf column is a numeric column
+replace NaN values with the daf column mean and reassign daf
+close condition
+close loop
+numerize dataframe column and reassign dataframe column
+numerize daf column and reassign daf column
+numerize matrix column and reassign matrix column
+numerize twodarray column and reassign twodarray column
+replace NaN values with last observation carried forawrd and reassign dataframe
+replace NaN values with next observation carried forawrd and reassign dataframe
+replace NaN values with last observation carried forawrd and reassign mt
+replace NaN values with next observation carried forawrd and reassign mt
+@ split dataframe feature set and target class by SPLIT_RATIO ratio and assign to X_train X_test y_train y_test
+# define variable ratio and assign sample with total size of df and sample size SPLIT_RATIO for total size of df
+# define variable X of features from dataframe
+# define variable y of target_class from dataframe
+# define variable df_train of ratio from dataframe
+# define variable df_test of last ratio from dataframe
+# define variable X_train of ratio from X
+# define variable X_test of last ratio from X
+# define variable y_train of ratio from y
+# define variable y_test of last ratio from y
+@ define variable clf and classify X_train y_train using SVC
+$ define variable clf and classify df_train with target class TARGET_CLASS using SVM
+$ define variable predictions and predict clf for df_test
+$ convert y_test list to a vector
+$ convert predictions list to a vector
+$ define variable cm and assign table for y_test and predictions
+$ define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+$ define variable clfm and classify df_train with target class TARGET_CLASS using SVM MachineShop
+$ define variable predictions and predict clfm for df_test
+$ convert y_test list to a vector
+$ convert predictions list to a vector
+$ define variable cm and assign table for y_test and predictions
+$ define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+@ define variable clf and classify X_train y_train using RandomForest
+# define variable clf and classify df_train with target class TARGET_CLASS using RandomForest
+# define variable predictions and predict clf for df_test
+# convert y_test list to a vector
+# convert predictions list to a vector
+# define variable cm and assign table for y_test and predictions
+# define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+@ define variable clf and classify X_train y_train using MLPClassifier
+$ define variable clf and classify df_train with target class TARGET_CLASS using neuralnet
+$ define variable predictions and predict clf for df_test
+$ convert y_test list to a vector
+$ convert predictions list to a vector
+$ define variable cm and assign table for y_test and predictions
+$ define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+@ define variable clf and classify X_train y_train using DecisionTreeClassifier
+# define variable clf and classify df_train with target class TARGET_CLASS using tree
+# define variable predictions and predict clf for df_test and type class
+# convert y_test list to a vector
+# convert predictions list to a vector
+# define variable cm and assign table for y_test and predictions
+# define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+@ define variable clf and classify X_train y_train using KNN
+$ define variable clf and classify df_train with target class TARGET_CLASS and test set df_test using kknn
+$ define variable predictions and predict clf
+$ convert y_test list to a vector
+$ convert predictions list to a vector
+$ define variable cm and assign table for y_test and predictions
+$ define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+@ define variable clf and classify X_train y_train using MultinomialNB
+# define variable clf and classify df_train with target class TARGET_CLASS using naiveBayes
+# define variable predictions and predict clf for df_test
+# convert y_test list to a vector
+# convert predictions list to a vector
+# define variable cm and assign table for y_test and predictions
+# define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+@ define variable clf and classify X_train y_train using GaussianNB
+$ define variable clf and classify df_train with target class TARGET_CLASS using naiveBayes
+$ define variable predictions and predict clf for df_test
+$ convert y_test list to a vector
+$ convert predictions list to a vector
+$ define variable cm and assign table for y_test and predictions
+$ define variable accuracy and get sum of diagonal of cm as a fraction of y_test length
+define variable predictions and predict clf for df_test and type class
+define variable pred and predict cl for df_test and type class
+define variable pred and predict clf for datatest and type class
+define variable predictions and predict cl for datatest and type class
+convert RAND_LIST list to a vector
+convert y_test list to a vector
+define variable tb and assign table for y_test and pred
+define variable cm and assign table for testSet and pred
+define variable tb and assign table for testSet and predictions
+define variable accuracy and get sum of diagonal of tb as a fraction of testSet length
+define variable accuracy and get sum of diagonal of cm as a fraction of testSet length
+define variable accuracy and get sum of diagonal of tb as a fraction of y_test length
+# if RANDOM_VAR2 is smaller than RANDOM_VAL2
+# close condition
+$ if RANDOM_VAR3 is smaller than RANDOM_VAL3
+$ close condition
+# if RANDOM_VAR4 is equals to RANDOM_VAL4
+# close condition
+$ if RANDOM_VAR5 is equals to RANDOM_VAL5
+$ close condition
+# if RANDOM_VAR6 is greater than RANDOM_VAL6
+# close condition
+$ if RANDOM_VAR7 is greater than RANDOM_VAL7
+$ close condition
+# if RANDOM_VAR8 is greater than or equal to RANDOM_VAL8
+# close condition

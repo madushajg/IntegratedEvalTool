@@ -1,0 +1,20 @@
+library ( tidyverse )
+df <- TRUE 'DATASET' = read_csv file )
+clf <- train ( df_test ~ . , TARGET_CLASS , set test , df_train )
+predictions <- predict ( clf )
+y_test <- unlist ( y_test )
+predictions <- unlist ( predictions )
+cm <- table ( y_test , predictions )
+accuracy <- cm ) diag ) sum / length ( y_test ) get )
+target_class <- 'TARGET_CLASS'
+split <- SPLIT_RATIO
+features <- c ( FEATURE_SET )
+ratio <- sample df ) n = nrow ( df , sample SPLIT_RATIO = ) n = nrow ( assign )
+X <- df [ features ]
+y <- df [ target_class ]
+df_train <- df [ ratio , ]
+df_test <- df [ - ratio , ]
+X_train <- X [ ratio , ]
+X_test <- X [ - ratio , ]
+y_train <- y [ ratio , ]
+y_test <- y [ - ratio , ]

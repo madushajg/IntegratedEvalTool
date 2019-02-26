@@ -1,0 +1,48 @@
+__label__1,Accuracy
+__label__2,Assign value to float variable
+__label__3,Assign value to integer variable
+__label__4,Assign value to string variable
+__label__5,Define a variable
+__label__6,Define an array
+__label__7,Define Language
+__label__8,Define K in KNN
+__label__9,Define Algorithm
+__label__10,Define Class
+__label__11,Define data manipulation library
+__label__12,Define multidimensional array operator
+__label__13,Drop columns
+__label__14,Drop columns - Range
+__label__15,Else condition
+__label__16,End
+__label__17,For loop
+__label__18,For each loop
+__label__19,IF condition – Not
+__label__20,IF condition – Simple
+__label__21,IF condition – Statement (!=)
+__label__22,IF condition – Statement (<)
+__label__23,IF condition – Statement (=)
+__label__24,IF condition – Statement (>)
+__label__25,import ML Library
+__label__26,Import specific modules
+__label__27,Load Dataset
+__label__28,Normalization-General
+__label__29,Print
+__label__30,Split Dataset – Test
+__label__31,Split Dataset – Train
+__label__32,Start Algorithm
+__label__33,While loop
+__label__34,Assign Class instance to variable
+__label__35,Confusion Matrix
+__label__36,Define features
+__label__37,import ML Algorithm
+__label__38,Numerization-General
+__label__39,Predict clf
+__label__40,Remove Null Target Classes
+__label__41,Replace NaN values
+__label__42,SplitDataset
+__label__43,Append elements to a list
+__label__44,Normalization-Specific
+__label__45,Numerization-Specific
+__label__46,End of for loop
+__label__47,End of IF
+__label__48,End of while loop

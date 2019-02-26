@@ -1,0 +1,17 @@
+
+import library dataframe
+import library MLlibrary KNN import library MLLibrary
+import library accuracy library
+define variable cm and generate confusion matrix for y_test with predictions
+unknown
+define variable df and read dataset DATASET csv file
+define variable clf and classify X_train y_train using KNN
+define variable target_class and assign TARGET_CLASS
+define variable split and assign SPLIT_RATIO
+define array features and assign FEATURE_SET
+define variable VAR0 and assign VAR_VALUE0
+split dataframe feature set and target class by SPLIT_RATIO ratio and assign to X_train X_test y_train y_test
+define variable clf and classify X_train, y_train using ALGORITHM
+define variable predictions and predict clf for X_test use predictions to obtain accuracy
+define variable cm and generate confusion matrix for y_test with predictions
+End of the Pseudocode

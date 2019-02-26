@@ -1,0 +1,24 @@
+use 0.1 from the data set for validation
+validation = 0.256
+split dataset in to test and train
+split dataset
+test,train ratio = 0.24
+allocate 35% for testing
+define a variable called test and assign 0.78 to it
+35% for testing
+test size = 0.3
+test set is 0.6 of data set
+use 60% data for testing
+use 78% of the source data to learning
+use 0.2 of data for build the model
+training set = 0.4
+train/test ratio = 0.48
+allocate 60% for training
+train 80%
+define a floating point variable train and assign 0.89
+define double variable called train with value 0.78
+train ratio is 0.5
+use 0.8 to train the model
+0.75 for training
+use 60% data for training
+declare a floating point variable called train_set and assign 0.078 to it

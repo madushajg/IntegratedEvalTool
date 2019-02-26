@@ -1,0 +1,338 @@
+__label__1 apply cross validation
+__label__1 return accuracy
+__label__1 show accuracy
+__label__1 calculate accuracy
+__label__1 print accuracy
+__label__1 use test data to find accuracy
+__label__1 apply test set to model and obtain the accuracy
+__label__2 average is 45.68
+__label__2 create a float variable named rainfall and assign 5.64 to it
+__label__2 goodness is a variable with value 4.4852
+__label__2 value of rain is 78.2
+__label__2 substitute decimal 5.5648 to variable count
+__label__2 assign value 8.95 to double variable my_val
+__label__2 winning_rate is a double variable which has value 4.00564
+__label__3 resolution = 487
+__label__3 equity is equals to 67
+__label__3 create an int variable named rainfall and assign 64 to it
+__label__3 goodness is a variable with value 4
+__label__3 value of tip is 8
+__label__3 assign 3 to integer variable happiness
+__label__3 declare Integer variable named as number, 294,549,560 as value of the variable
+__label__4 equity name is equals to some name
+__label__4 define variable phase and assign hello world.
+__label__4 define a string variable called some string and assign 'your name' as value
+__label__4 assign Usha to string variable long_string
+__label__4 value of string variable name is Yilokyr
+__label__4 create a string variable named str and append "My Name" to str
+__label__4 my_string = my name is R
+__label__5 define a string variable named weight
+__label__5 initialize a variable as any_name
+__label__5 my_height is a null variable
+__label__5 create a variable named tizzle
+__label__5 create variable d
+__label__5 initialize an empty integer variable named F
+__label__5 declare an empty variable with the name validity
+__label__6 define a string array named weight
+__label__6 define a floating point array named weight
+__label__6 define an integer array named weight_list
+__label__6 define an empty array named uft
+__label__6 allocate memory to array my_array
+__label__6 declare an empty array named st_array
+__label__6 define array pep
+__label__7 write the source code by using R
+__label__7 language = python
+__label__7 programming language = Python
+__label__7 language is R
+__label__7 use R as the language
+__label__7 build model using python
+__label__7 preferred programming language = C
+__label__8 K = 2
+__label__8 k is 3
+__label__8 N is 7
+__label__8 N = 4
+__label__8 referring to 5 neighbors
+__label__8 consider 10 neighbors
+__label__8 No of neighbors = 5
+__label__9 By applying support vector machine
+__label__9 use ANN
+__label__9 train the model using Neural Network
+__label__9 build model by applying Random Forrest
+__label__9 clustering algorithm is K-means
+__label__9 use Decision Tree classifier to learn the mode
+__label__9 define variable target_class and assign TARGET_CLASS
+__label__10 class attribute = currency
+__label__10 ground truth = pass
+__label__10 use raining as class
+__label__10 class is SL_win
+__label__10 class = play_golf
+__label__10 take my_class as the class
+__label__10 define variable clf and classify X_train y_train using Algorithm
+__label__11 I want to use a data manipulation library
+__label__11 use data manipulation library
+__label__11 import data frame generator
+__label__11 import Pandas as pd
+__label__11 use data frame handler
+__label__11 use Pandas or similar kind of library
+__label__11 import library dataframe
+__label__12 Use inbuilt array operator
+__label__12 By using multidimensional array
+__label__12 import Numpy
+__label__12 using multidimensional array operator
+__label__12 use array organizer
+__label__12 import similar library to Numpy
+__label__12 import library multidimentional array
+__label__13 not consider price, sales
+__label__13 ignore data points in 2 nd column, 3rd column and 5 th column
+__label__13 drop data in column10 and column15
+__label__13 features to be ignored = weight, height, length
+__label__13 not use distance and velocity for train the model
+__label__13 eliminate column1 and column2 from data set
+__label__13 hide attribute 1, attribute 2, attribute 3 , attribute 4 and  attribute 5 from learning
+__label__14 drop columns in between name and sales
+__label__14 delete all attributes between column1 and column5
+__label__14 not consider feature 1 to feature 10
+__label__14 features to be ignored = weight - length
+__label__14 hide feature 1 to feature 5 from model learning
+__label__14 drop data in column10 and column15
+__label__14 ignore data points between 2 nd column and 5 th column
+__label__15 else any,
+__label__15 else if any
+__label__15 else,
+__label__15 IF not,
+__label__15 if not
+__label__15 if not the the case,
+__label__15 in case, the given condition is not satisfied
+__label__16 End
+__label__16 end of the pseudo code
+__label__16 terminate the program
+__label__16 close the application
+__label__16 finish ML program
+__label__16 quite algorithm
+__label__16 conclude steps
+__label__17 run for loop for 10 times
+__label__17 iterate 5 times
+__label__17 for (x = 10, x=0, x--){ 
+__label__17 for the range of 6 to 34,
+__label__17 for temp in range(4, 8)
+__label__17 for x in range(7)
+__label__17 repeat the process for 96 iterations
+__label__18 for every k in keys
+__label__18 for e in elements :
+__label__18 for item in item_list
+__label__18 apply for every member in the given_list
+__label__18 do to each item in the my_list
+__label__18 iterate through each member in the array
+__label__18 iterate for each column in the dataset,
+__label__19 IF !any
+__label__19 not the case that something is not false
+__label__19 not the case of any is true,
+__label__19 if not any,
+__label__19 if any is not true,
+__label__19 if result is false,
+__label__19 if the condition is not true:
+__label__20 if any is true,
+__label__20 IF any
+__label__20 IF (BOOL variable)
+__label__20 if ( some condition ):
+__label__20 if (anything)
+__label__20 if true,
+__label__20 if something
+__label__21 if not the case that some1 is equal to some2
+__label__21 IF if size of c_ulong does not equals to  Size of c_void_p,
+__label__21 if ( dog_age !== cat_age ),
+__label__21 if ( any1 != any2 ):
+__label__21 if e.errno is not equal to errno.EEXIST,
+__label__21 if man and nam are different
+__label__21 if the value of  variable X and the value of variable Y are not equals,
+__label__22 if rat shorter than cat,
+__label__22 if square is fewer than the wheel:
+__label__22 not the case that some1 is more than some2
+__label__22 if size of c_ulong does smaller than Size of c_void_p,
+__label__22 if ( dog_age  < cat_age ),
+__label__22 if ( any1  <  any2 ):
+__label__22 if e.errno is not greater than errno.EEXIST,
+__label__23 if rat is similar to cat,
+__label__23 if my_name is same as your_name:
+__label__23 if num1 is num2
+__label__23 if real equals to expected,
+__label__23 if ( dog_age = cat_age ) {
+__label__23 if any1 == any2:
+__label__23 if any1 is equals to any2
+__label__24 if ( dog_age  > cat_age ),
+__label__24 if size of c_ulong does higher than Size of c_void_p,
+__label__24 not the case that some1 is lesser than some2
+__label__24 if square is bigger than the wheel:
+__label__24 if rat taller than cat,
+__label__24 if van  is larger than car
+__label__24 if moon is greater than sun:
+__label__25 use e1070
+__label__25 use sklearn
+__label__25 import suitable machine learning package
+__label__25 use appropriate ML package
+__label__25 refer a machine learning library
+__label__25 import some machine learning module
+__label__25 use similar kind of machine learning library to Scikit Learn
+__label__26 import module
+__label__26 using a given_module_name
+__label__26 import package_name
+__label__26 import confusion_matrix from sklearn
+__label__26 use a preprocessing library
+__label__26 from sklearn import preprocessing
+__label__26 import library DataVisualization
+__label__27 Load dataset
+__label__27 using the given csv file
+__label__27 load data set as ds
+__label__27 source file = dataset
+__label__27 by using the given CSV file as the data set
+__label__27 refer to the uploaded data set
+__label__27 put the given data set in to a data frame
+__label__28 apply normalization
+__label__28 normalize dataset
+__label__28 use scaler to normalize attribute values
+__label__28 normalize by using scaler
+__label__28 normalize feature set
+__label__28 apply normalization for required columns
+__label__28 normalize uploaded dataset
+__label__29 println(some word pharse)
+__label__29 print()
+__label__29 print something
+__label__29 print
+__label__29 print anything
+__label__29 show (result)
+__label__29 display the requested result on the screen
+__label__30 allocate 35% for testing
+__label__30 define a variable called test and assign 0.78 to it
+__label__30 35% for testing
+__label__30 split size for testing = 0.25
+__label__30 test size = 0.3
+__label__30 test set is 0.6 of data set
+__label__30 use 60% data for testing
+__label__31 define a floating point variable train and assign 0.89
+__label__31 define double variable called train with value 0.78
+__label__31 train ratio is 0.5
+__label__31 use 0.8 to train the model
+__label__31 0.75 for training
+__label__31 use 60% data for training
+__label__31 declare a floating point variable called train_set and assign 0.078 to it
+__label__32 implement clustering algorithm
+__label__32 start above mentioned algorithm
+__label__32 Apply ml algorithm to data set
+__label__32 Begin clustering
+__label__32 implement algorithm
+__label__32 Apply algorithm
+__label__32 Start classification
+__label__33 until the condition is true
+__label__33 while()
+__label__33 while something:
+__label__33 while (1):
+__label__33 white true
+__label__33 do infinitely
+__label__34 depth = depthclass()
+__label__34 define a variable called burnable and initiate burn class as value
+__label__34 instantiate preprocessing library and assign to variable ps
+__label__34 assign some_class instance  to variable def
+__label__34 declare a variable named tfidf_transformer, and assign tfidf transformer()
+__label__34 define variable le and instantiate label encoder
+__label__34 define variable scaler and assign standard scaler class
+__label__35 show confusion matrix
+__label__35 obtain the confusion matrix by using predictions
+__label__35 find confusion matrix
+__label__35 define variable cm and generate confusion matrix for predictions
+__label__35 return confusion matrix as ca
+__label__35 apply confusion matrix
+__label__35 calculate relevant confusion matrix
+__label__36 use attribute 1, attribute 2, attribute 3 , attribute 4 and  attribute 5 for learning
+__label__36 features to be used to learn = weight, height,  length
+__label__36 selected features =  9999, 4444
+__label__36 use 4444, findex1, findex2, findex9  columns
+__label__36 columns to be considered = findex2, findex9
+__label__36 attributes are column 1 , column 2 and column 6
+__label__36 features = runs, wickets, no_of_100's, average, strke_rates
+__label__37 import NN from Machine Learning library
+__label__37 import library SVM
+__label__37 import library Logisitic Regression
+__label__37 import library Random Forest
+__label__37 import library Gaussian Naive Bayes
+__label__37 import library Multinomial Naive Bayes
+__label__37 import k-nearest neghbour library
+__label__38 numerize feature set
+__label__38 numerize dataset
+__label__38 numerize if necessary
+__label__38 apply numerization
+__label__38 apply numerization for required columns
+__label__38 numerize uploaded dataset
+__label__38 encode object type attributes as numeric
+__label__39 use learned model to predict feature for my_list
+__label__39 predict relevant class for dp
+__label__39 apply sample data to the model and obtain class
+__label__39 apply data in mer_rio to model and find relevant classes
+__label__39 find class for given data point
+__label__39 predict clf for new_datapoint
+__label__39 parse list_values to model and obtain predicted classes
+__label__40 drop data points which do not contain value for class
+__label__40 do not consider data points with empty cell in target class
+__label__40 ignore rows with no data in class feature
+__label__40 take only values not empty in class atribute
+__label__40 delete cells with null value in class column
+__label__40 remove null cells in target class
+__label__40 remove datapoints that have NULL target_class from the dataframe and reassign dataframe
+__label__41 fill incomplete values by using lbcf
+__label__41 replace values for unfilled cells from nocf
+__label__41 remove null values in column4 by using column average
+__label__41 replace NaN values with next observation carried forawrd
+__label__41 replace Null values with last observation carried forawrd
+__label__41 replace empty values with the column mean and reassign dataframe
+__label__42 define train and validate sets ans classes
+__label__42 assign train set to X_train, y_train and test set to X_test, y_test
+__label__42 assign test set to X_test and test class to y_test
+__label__42 assign train set to X_train and train class to y_train
+__label__42 separate data set for training and validation
+__label__42 divide dataset in to training and testing sets
+__label__42 split dataframe feature set and target class
+__label__43 define a string array called str_array and put flowers, guitars, elephants and drums to it
+__label__43 num_array = Arshad, Milan
+__label__43 create a list named temp_list and add 'Milan', 'Madusha', 'Dinusha', 'Arshad', 'Ruchira'
+__label__43 assign 45, 89 ,45 ,12 and 44 to number_array
+__label__43 my_list.append(runs, wickets, total, strike_rate)
+__label__43 add element1 to element_list
+__label__43 append age, height, skills to the list named my_list
+__label__44 normalize 4444 and 9999 in data set
+__label__44 apply normalization to col1, col2 by using scaler
+__label__44 normalize feature 1, feature 2 and feature 3 by using scale of 0 to 10
+__label__44 normalize column1 and column 5 in uploaded dataset
+__label__44 columns to be normalized = 3, 4
+__label__44 apply normalization to column1 and column2
+__label__44 features to be normalized = name, age, place
+__label__44 normalize attribute 1, attribute 2, attribute 3 and attribute 5
+__label__45 numerize column1 and column 5 in uploaded dataset
+__label__45 numerize attribute 1, attribute 2, attribute 3 and attribute 5
+__label__45 features to be numerized = name, age, place
+__label__45 apply numerization to column1 and column2
+__label__45 numerize column1 to column 5
+__label__45 convert categorical data in feature2 and feature5 to numerical data
+__label__45 columns to be numerized = 3, 4
+__label__46 end of for
+__label__46 conclude for loop
+__label__46 break the for loop
+__label__46 stop for loop
+__label__46 terminate for loop
+__label__46 escape from for loop
+__label__46 end of for loop
+__label__47 end of if condition
+__label__47 escape from if
+__label__47 close the if condition
+__label__47 terminate if statement
+__label__47 stop if condition
+__label__47 end of else
+__label__47 end of IF
+__label__47 conclude IF condition
+__label__48 end of while
+__label__48 escape from while loop
+__label__48 terminate while loop
+__label__48 end of while loop
+__label__48 stop while loop
+__label__48 break the while loop
+__label__48 conclude while loop
+__label__41 fill null values by using average of column
+__label__33 run while condition satisfied

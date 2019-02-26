@@ -1,0 +1,239 @@
+__label__1 apply test set to model and obtain accuracy
+__label__1 finally, find accuracy of trained model
+__label__1 use predictions for validation set to find accuracy
+__label__1 find accuracy for the model
+__label__1 determine the accuracy of prediction model
+__label__35 find confusion matrix for the trained model
+__label__35 finally, find confusion matrix
+__label__35 show confusion matrix for model
+__label__35 find performance using confusion matrix
+__label__35 display confusion matrix
+__label__9 train model by using logistic regression
+__label__9 algo = multinomialNB
+__label__9 decision tree classificarion is the algorithm
+__label__9 use knn as the algorithm
+__label__9 use naive bayes for classification
+__label__12 import a dataframe handler
+__label__12 dataframe library = Pandas
+__label__12 import Pandas as pd
+__label__12 import pandas library
+__label__12 datamanipulation library = pandas
+__label__8 consider 4 neighbors 
+__label__8 N value of knn is 6
+__label__8 refer to 10 neighbors
+__label__8 k = 4
+__label__8 consider 4 neighbors in KNN
+__label__11 use appropriate array manipulator
+__label__11 array operator = numpy
+__label__11 import numpy as np
+__label__11 use numpy for array manipulation
+__label__15 otherwise
+__label__15 if not
+__label__15 else
+__label__16 mark the end
+__label__16 stop
+__label__16 break
+__label__46 mark end of for loop
+__label__46 end of for loop
+__label__46 stop for loop
+__label__47 escape from immediate if condition
+__label__47 end of if condition
+__label__47 go out from if condition
+__label__48 mark end of while
+__label__48 end of while loop
+__label__17 run below lines for 78 time
+__label__17 iterate through all list items for 5 times
+__label__17 run below logic for 5 times
+__label__19 if condition is not satisfied
+__label__19 else
+__label__19 not if
+__label__20 if the condtion is satisfied
+__label__20 if
+__label__20 if the condition is true
+__label__21 if object1 is not equals to object2
+__label__21 if object 1 and object 2 are not eqaul
+__label__22 if object1 is less than object2
+__label__22 if x<y
+__label__22 if value of x is less than value of y
+__label__23 if object1 is equals to object2
+__label__23 if object 1 and object 2 are eqaul
+__label__24 if object1 is grater than object2
+__label__24 if x<y
+__label__24 if value of x is greater than value of y
+__label__37 import logistic regression 
+__label__37  ML algorithm = naive bayes
+__label__37  knn is the algorithm
+__label__37  imoport knn as knn
+__label__37  import knn ML algorithm
+__label__25 use sklearn to learn the model
+__label__25 learning package = e1070
+__label__25 import sklearn ML library
+__label__26 use traveter to do machine translation
+__label__26 import fuzzy for implement fuzzy logic
+__label__27 load data points in the data set
+__label__27 refer to given dataset when build the model
+__label__27 build the model using given dataset
+__label__28 normalize dataset before applying classifcation
+__label__28 set each data point in to one scale
+__label__28 take all data points to one range
+__label__28 normalize data to get values between 1  to 10
+__label__44 normalize data points in column 4,5 and 9
+__label__44  scale the dataset for column 3 and column 6
+__label__44  normalize data for columns 1,2 and 4
+__label__38 numerize categorical datapoints
+__label__38 apply label encoding to data set
+__label__38 convert categorical data to numerical
+__label__38 convert non numerical labels to numerical labels
+__label__38 convert categorical data to numbers
+__label__45 numerize categorical data points in column 3,7 and 8
+__label__45 convert categorical data to numerical
+__label__45 convert categorical data in col 1 , col 3 to  numerical
+__label__45 convert categorical data in columns 1,2 and 5
+__label__29 print 'This is pesudo'
+__label__29 show 'awesome ps' in scrren
+__label__29 display string 'smaple codes are here'
+__label__29 display string 'test'
+__label__29 show message 'this is pseudo'
+__label__40 filter null data points for target_class
+__label__40 do not leave nan rows for class feature
+__label__40 preprocess data set by removing empty cells in target class
+__label__40 do not consider null target classes
+__label__40 remove all null target classes
+__label__41 fill null values by using average of column
+__label__41 replace absent values by using nocf
+__label__41 preprocess data set by filling empty cells
+__label__41 fill empty cells with the minimum of the column
+__label__41 fill empty cells
+__label__42 devide dataset in to two sets, one for testing and one for training
+__label__42 separate uploaded dataset for validation and learning
+__label__42 allocate portion of data for traing and other portion for testing
+__label__42 devide dataset for testing and training
+__label__42 half of data set is for training and other half is for testing
+__label__32 classify uploaded dataset by using naive bayes
+__label__32 build ml model by following above instructions
+__label__32 construct the machine learning model
+__label__32 start classify the model using knn
+__label__32 feed the data and start algorithm
+__label__33 run until the end codition satisfied
+__label__33 while (object1 is not null)
+__label__33 run below lines of code while x<5
+__label__33 run while condition satisfied
+__label__3 create int variable test and assign 20
+__label__3 assign value 2 to the int variable test
+__label__3 value of variable total is 3
+__label__3 assign 10 as the value of test
+__label__3 define variable x as 5
+__label__3 initilize variable sum as 10
+__label__3 assign variable p with value 23
+__label__3 set value of variable x to 3
+__label__3 value of variable x is 5
+__label__3 assign value 10 for variable p
+__label__3 variable q has value 6
+__label__3 value stored in y is 10
+__label__3 define int variable y as 10
+__label__3 define int variable score as 12
+__label__3 assign 25 to variable length
+__label__5 define int variable count
+__label__5 declare integer variable count
+__label__5 create a new int variable as sum
+__label__5 create float variable avg
+__label__5 define variable c 
+__label__5 initialize float variable named tyu
+__label__5 create a variable as y
+__label__5 create string variable emp_name
+__label__5 define variable age to store AGE
+__label__5 create a new variable called name
+__label__5 mark variable is used to store student marks
+__label__5 define int variable as sum
+__label__5 create int variable as count
+__label__5 define string wariable as firstName
+__label__6 create String list and name it as myData
+__label__6 declare integer list as myArray
+__label__6 create String[] named myData
+__label__6 use String array myArray to store names
+__label__6 declare array x as int
+__label__6 define integer array y
+__label__6 define collection ar as double_array
+__label__6 create a list named uop to store student marks
+__label__6 declare a new list called names
+__label__6 student marks are stored in list student_marks
+__label__6 create String array as item_price 
+__label__6 create String array as score_lengths
+__label__6 declare ArrayList as arrayContent
+__label__39 feed the data to the model to obtain predicted classes
+__label__39 obtain the predicted classes for array riop using the model
+__label__39 load the model and parse the data in my_array to obtain classification
+__label__39 parse list my_list to the model and predict classes
+__label__39 get classes using data in my_array
+__label__7 use programming laguage python
+__label__7 write an algorithm using R
+__label__7 laguage is equal to R 
+__label__7 write a code using python
+__label__7 use python as the language
+__label__7 language is Java
+__label__13 delete colomn 1 and 2
+__label__13 train the model without using column 1
+__label__13 remove column 1 in training the model
+__label__13 Ignore column 1 from the dataset
+__label__13 Do not consider distance column for thaining the model
+__label__36 use feature x,y to train the model
+__label__36 define feature p, q as features
+__label__36 use attribute 1 and 2 to train model
+__label__36 features to be considered are socre,grade,expereince
+__label__36 features = score,grade,experience
+__label__36 use age,gender and weight as features
+__label__36 use first 5 columns as features to train
+__label__18 for each record in recordList
+__label__18 iterate through every member in recordList
+__label__18 iterate each element in list_aer untill != null 
+__label__18 iterate every item utill the end of the list my_list
+__label__18 loop the result_set for each result to get clf
+__label__18 Iterate through each item in the list
+__label__18 get each item in the list kio_er using a loop
+__label__18 go through the list ty_leju and print each item
+__label__31 training data set is 70%
+__label__31 use 70% of the data set for training
+__label__31 take 30% data for testing
+__label__31 seperate 60% dataset for training
+__label__31 use 30% of data for training
+__label__31 split the data set as 70% for training rest as testing
+__label__31 for training= 40% of total dataset
+__label__31 40% is for testing
+__label__43 append name, age, color  to myData list
+__label__43 insert 10 and 20 to myData list
+__label__43 insert item to the itemList
+__label__43 add item1 and item2 to the itemList
+__label__43 append 20 to the array x
+__label__43 Add two new items item1 and item2 to the list iop_ry
+__label__43 expand the array by adding 1 ,2 3 to array rty
+__label__4 define string variable as str and assign "String Test" to it
+__label__4 assign "String Test" to str
+__label__4 set value of string variable str to "String Test"
+__label__4 initilize varible erae with '25 captains'
+__label__4 assing '10 ducks and i fish' to the string variable b
+__label__4 initilize variable x as 'go go lanka'
+__label__4 name = 'ruchira'
+__label__4 assign 'audi' for the variable car
+__label__4 create a String variable and assign 'python' to it
+__label__34 initialize class ert to variable named my_class
+__label__34 declare class my_class and instantialte fuzzy()
+__label__34 create class obj named tyui with class upperLimit
+__label__34 define new class object named rty for class TFIDF
+__label__34 declare class x to keep initialize my_class
+__label__34 create a class called Animal and assign Dog class
+__label__34 c_name = Animal()
+__label__34 class name is Test and object is MuTestings.
+__label__14 do not use col1 to col6 train 
+__label__14 features to be hide = column 6 to 8
+__label__14 drop column from column 1 to 5
+__label__14 remove columns from comlumn 5 and column 6
+__label__14 eleminate columns from column 1 and column 3
+__label__14 Ignore the columns 1 to 5
+__label__14 drop first column to third column
+__label__14 Do not consider column 6 to 8
+__label__10 use 'Age' as class
+__label__10 target class = runs
+__label__10 win_prediction is the target class
+__label__10 take city as the ground truth
+__label__10 consider student_type as the class
+__label__10 classify dataset by using no_of_cars as the class

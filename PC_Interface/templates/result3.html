@@ -1,0 +1,171 @@
+{% extends "layout.html" %}
+{% include 'navigation_bar.html' %}
+
+{% block body %}
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+<div>
+    <table style="width: 100%">
+        <col style="width: 25%">
+        <col style="width: 25%">
+        <col style="width: 25%">
+        <col style="width: 25%">
+        <thead style="text-align: center">
+            <td><h4>Languege 1</h4></td>
+            <td><h4>Algorithm 1</h4></td>
+            <td><h4>Languege 2</h4></td>
+            <td><h4>Algorithm 2</h4></td>
+        </thead>
+    </table>
+
+    <form action="evl" method="POST">
+        <select id="selectLan1" name="selectLan1" onchange="fillAlgoArr1(this.value);">
+            <option>R</option>
+            <option>Python</option>
+        </select>
+        <select id="select1" name="select1">
+        </select>
+        <select id="selectLan2" name="selectLan2" onchange="fillAlgoArr2(this.value);">
+            <option>Python</option>
+            <option>R</option>
+        </select>
+        <select id="select2" name="select2">
+        </select>
+        <button class="button" type="submit" value="evaluate_results">Run</button>
+    </form>
+</div>
+
+<div>
+    <table style="width: 100%">
+        <col style="width: 45%">
+        <col style="width: 30%">
+        <col style="width: 25%">
+        <thead style="text-align: center">
+            <td><h3>{{libaryName1}} </h3></td>
+            <td><h3>{{libaryName2}} </h3></td>
+            <td><h3>Score</h3></td>
+        </thead>
+    </table>
+    {{match_df | safe}}
+
+</div>
+
+
+<script>
+    // document.querySelector(".dataframe").addEventListener("click", function(event) {
+    //     // console.log(event)
+    //     var text = $(event.target).text();
+    //     console.log(event)
+    // });
+    // document.getElementsByClassName("dataframe")[0].onclick = function(){
+    //     console.log('work');
+    //     document.getElementsByClassName("dataframe")[0].rows[1].cells[2].style.whiteSpace = ''
+    // }
+    // document.getElementsByClassName("dataframe")[0].rows[1].cells[2].title = document.getElementsByClassName("dataframe")[0].rows[1].cells[2].textContent
+    var table = document.getElementsByClassName("dataframe")[0]
+    for (i=1;i<table.rows.length;i++){
+        table.rows[i].cells[1].title = table.rows[i].cells[1].textContent;
+        table.rows[i].cells[2].title = table.rows[i].cells[2].textContent;
+        table.rows[i].cells[3].title = table.rows[i].cells[3].textContent;
+        table.rows[i].cells[4].title = table.rows[i].cells[4].textContent;
+        table.rows[i].cells[5].title = table.rows[i].cells[5].textContent;
+        table.rows[i].cells[6].title = table.rows[i].cells[6].textContent;
+    }
+
+    var col1 = document.createElement("COL");
+    var col2 = document.createElement("COL");
+    var col3 = document.createElement("COL");
+    var col4 = document.createElement("COL");
+    var col5 = document.createElement("COL");
+    var col6 = document.createElement("COL");
+    var col7 = document.createElement("COL");
+    var col8 = document.createElement("COL");
+    var col9 = document.createElement("COL");
+    var col10 = document.createElement("COL");
+    var col11 = document.createElement("COL");
+
+    col1.style.width = '4%'
+    col2.style.width = '8%'
+    col3.style.width = '18%'
+    col4.style.width = '8%'
+    col5.style.width = '8%'
+    col6.style.width = '18%'
+    col7.style.width = '8%'
+    col8.style.width = '7%'
+    col9.style.width = '7%'
+    col10.style.width ='7%'
+    col10.style.width ='7%'
+
+    table.appendChild(col1)
+    table.appendChild(col2)
+    table.appendChild(col3)
+    table.appendChild(col4)
+    table.appendChild(col5)
+    table.appendChild(col6)
+    table.appendChild(col7)
+    table.appendChild(col8)
+    table.appendChild(col9)
+    table.appendChild(col10)
+    table.appendChild(col11)
+
+
+    if({{line1}}!=0)
+        table.rows[{{line1}}].style.borderBottom = "3px solid #090300"
+    if({{line2}}!=0)
+        table.rows[{{line2}}].style.borderBottom = "3px solid #090300"
+
+
+    function fillAlgoArr1(lan) {
+        var algoArr
+        if(lan=='R')
+            algoArr = {{RalgoArr | tojson}}
+        else
+            algoArr = {{SKalgoArr | tojson}}
+        console.log(lan)
+        console.log(algoArr)
+        document.getElementById("select1").options.length = 0;
+        var select1 = document.getElementById("select1");
+        var options1 = algoArr;
+        for(var i = 0; i < options1.length; i++) {
+            var opt = options1[i];
+            var el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            select1.appendChild(el);
+        }
+    }
+
+    function fillAlgoArr2(lan) {
+        var algoArr
+        if(lan=='R')
+            algoArr = {{RalgoArr | tojson}}
+        else
+            algoArr = {{SKalgoArr | tojson}}
+        console.log(lan)
+        console.log(algoArr)
+        document.getElementById("select2").options.length = 0;
+        var select2 = document.getElementById("select2");
+        var options2 = algoArr;
+        for(var i = 0; i < options2.length; i++) {
+            var opt = options2[i];
+            var el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            select2.appendChild(el);
+        }
+    }
+
+    fillAlgoArr1({{lang1|tojson}});
+    fillAlgoArr2({{lang2|tojson}});
+
+
+    document.getElementById("select1").value = {{algoName1|tojson}};
+    document.getElementById("select2").value = {{algoName2|tojson}};
+    document.getElementById("selectLan1").value = {{lang1|tojson}};
+    document.getElementById("selectLan2").value = {{lang2|tojson}};
+
+</script>
+
+
+{% endblock %}

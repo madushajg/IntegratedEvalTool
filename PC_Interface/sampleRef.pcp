@@ -1,0 +1,125 @@
+import library dataframe
+import library multidimentional array
+import library DataVisualization
+import library MLlibrary Multinomial Naive Bayes
+import library MLlibrary Gaussian Naive Bayes
+import library MLlibrary Random Forest
+import library MLlibrary Logisitic Regression
+import library MLlibrary SVM
+import library MLlibrary KNN
+import library MLlibrary Decision Tree
+import library MLlibrary ANN
+import Library MLlibrary TrainTestSplit
+import library MLlibrary Preprocessing Scaler
+import library MLlibrary Confusion Matrix
+import library MLlibrary Label Encoder
+import library MLlibrary CountVectorizer
+import library MLlibrary tfidf feature extractor
+import library MLlibrary Accuracy
+define empty array STRING_ARRAY
+define empty array INTEGER_ARRAY
+define empty array FLOAT_ARRAY
+define empty array OBJECT_ARRAY
+define array STRING_ARRAY with values STRING_VALUES
+define array INTEGER_ARRAY with values INTEGER_VALUES
+define array FLOAT_ARRAY with values FLOAT_VALUES
+define array OBJECT_ARRAY with values OBJECTS
+append STRING_VALUE to array STRING_ARRAY
+append INTEGER_VALUE to array INTEGER_ARRAY
+append FLOAT_VALUE to array FLOAT_ARRAY
+append OBJECT to array OBJECT_ARRAY
+define variable k and assign NEIGHBOURS
+define variable VAR and assign VAR_VALUE
+define variable df and read dataset DATASET csv file
+define variable df read dataset DATA text file seperated by space
+define variable df read dataset DATASET text file seperated by comma
+define variable df read dataset DATA text file seperated by tab
+define variable df read dataset DATASET tsv file
+define array features and assign FEATURE_SET
+define variable split and assign SPLIT_RATIO
+define variable splitAlt and assign SPLIT_RATIO_ALT
+define variable rs and assign RANDOM_STATE
+define variable rs2 and assign RANDOM_STATE2
+define variable target_class and assign TARGET_CLASS
+define variable final dataframe and reassign dataframe with features and target_class
+define variable final dataframe and reassign dataframe with featureset and target
+define variable final daf and reassign daf with features and target_class
+define variable final daf and reassign daf with featureset and target
+remove datapoints that have NULL target_class from the dataframe and reassign dataframe
+remove datapoints that have NULL target from the daf and reassign daf
+drop attribute ATTRIBUTE from dataframe
+drop attributes ATTRIBUTES from dataframe
+drop attribute ATTRIBUTE from daf
+drop attributes ATTRIBUTES from daf
+iterate for RANDOM_NUMBER times
+iterate for RANDOM_NUMBER1 times
+iterate for RANDOM_NUMBER2 times
+iterate for RANDOM_NUMBER3 times
+iterate for each ELEMENT in RANDOM_LIST
+iterate for each ELEMENT1 in RANDOM_LIST1
+iterate for each ELEMENT2 in RANDOM_LIST2
+iterate for each ELEMENT3 in RANDOM_LIST3
+if RANDOM_VAR is not equals to RANDOM_VAL
+if RANDOM_VAR1 is not equals to RANDOM_VAL1
+if RANDOM_VAR2 is smaller than RANDOM_VAL2
+if RANDOM_VAR3 is smaller than RANDOM_VAL3
+if RANDOM_VAR4 is equals to RANDOM_VAL4
+if RANDOM_VAR5 is equals to RANDOM_VAL5
+if RANDOM_VAR6 is greater than RANDOM_VAL6
+if RANDOM_VAR7 is greater than RANDOM_VAL7
+if RANDOM_VAR8 is greater than or equal to RANDOM_VAL8
+if RANDOM_VAR9 is greater than or equal to RANDOM_VAL9
+if RANDOM_VAR10 is less than or equal to RANDOM_VAL10
+if RANDOM_VAR11 is less than or equal to RANDOM_VAL11
+replace NaN values with column mean and reassign dataframe
+replace NaN values with column mean and reassign daf
+replace NaN values with last observation carried forawrd and reassign dataframe
+replace NaN values with next observation carried forawrd and reassign dataframe
+replace NaN values with last observation carried forawrd and reassign daf
+replace NaN values with next observation carried forawrd and reassign daf
+split dataframe feature set and target class by SPLIT_RATIO ratio and assign to X_train X_test y_train y_test
+split dataframe feature set and target class by SPLIT_RATIO_ALT ratio and assign to X_train X_test y_train y_test
+split dataframe feature set and target class by SPLIT_RATIO_ALT ratio with random state RANDOM_STATE and assign to X_train X_test y_train y_test
+split dataframe feature set and target class by SPLIT_RATIO ratio with random state RANDOM_STATE2 and assign to X_train X_test y_train y_test
+split dataframe attribute set and class column by SPLIT_RATIO ratio and assign to X_train X_test y_train y_test
+split dataframe feature set and class column by SPLIT_RATIO ratio and assign to X_train X_test y_train y_test
+split dataframe attribute set and target class by SPLIT_RATIO_ALT ratio and assign to X_train X_test y_train y_test
+split dataframe attribute set and target class by SPLIT_RATIO ratio with random state RANDOM_STATE2 and assign to X_train X_test y_train y_test
+split dataframe attribute set and class column by SPLIT_RATIO ratio with random state RANDOM_STATE and assign to X_train X_test y_train y_test
+# define variable scaler and assign standard scaler class
+# normalize X_train using scaler and reassign X_train
+define variable clf and classify X_train y_train using MultinomialNB
+define variable clf and classify X_train y_train using GaussianNB
+define variable clf and classify X_train y_train using SVC
+define variable clf and classify X_train y_train using RandomForest
+define variable clf and classify X_train y_train using LogisticRegression
+define variable clf and classify X_train y_train using KNN
+define variable clf and classify X_train y_train using DecisionTreeClassifier
+define variable clf and classify X_train y_train using MLPClassifier
+define variable predictions and predict clf for X_test
+define variable predictions and predict clf for testData
+define variable predictions and predict clf for testDataSet
+define variable predictions and predict clf for testSet
+define variable cm and generate confusion matrix for y_test with predictions
+define variable cm and generate confusion matrix for y_testData with predictionstestData
+define variable cm and generate confusion matrix for y_testDataSet with predictionstestDataSet
+define variable cm and generate confusion matrix for y_testSet with predictionstestSet
+define variable accuracy and generate accuracy score for y_test with predictions
+define variable accuracy and generate accuracy score for y_testData with predictionstestData
+define variable accuracy and generate accuracy score y_testDataSet with predictionstestDataSet
+define variable accuracy and generate accuracy score for y_testSet with predictionstestSet
+print variable accuracy
+print variable cm
+define variable new_datapoint and normalize NEW_DATAPOINT using scaler
+predict clf for new_datapoint
+predict clf for test_datapoint
+predict clf for random_datapoint
+# define variable le and assign label encoder class
+# iterate for each column in the dataframe
+# if each column datatype is equal to object type
+# numerize dataframe column and reassign dataframe column
+$ define variable text_feature and assign TEXT_FEATURE
+$ define variable count_vect and assign count vectorizer class
+$ define variable df_counts_TEXT_FEATURE and assign counts of tokens from the dataframe text feature using count vectorizer
+# define variable tfidf_transformer and assign tfidf transformer class
+# get the tfidf scores for the dataframe text feature using tfidf transformer and reassign df_counts_TEXT_FEATURE

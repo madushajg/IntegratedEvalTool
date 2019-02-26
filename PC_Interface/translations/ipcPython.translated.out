@@ -1,0 +1,9 @@
+import pandas as pd
+cm = confusion_matrix ( y_test , predictions )
+df = pd . read_csv ( 'DATASET' )
+clf = ( X_train , y_train neighbors ( ) . fit )
+target_class = 'TARGET_CLASS'
+split = SPLIT_RATIO
+features = [ FEATURE_SET ]
+df [ SPLIT_RATIO train_test_split , df . set = target ( = X_train , X_test , y_train , y_test )
+cm = confusion_matrix ( y_test , predictions )

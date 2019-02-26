@@ -1,0 +1,102 @@
+__label__1 apply cross validation
+__label__1 return accuracy
+__label__2 initialize float variable named FUZ with value 909.56
+__label__2 assign 78.56 to pt
+__label__3 assign 3 to integer variable happiness
+__label__3 declare Integer variable named as number, 294,549,560 as value of the variable
+__label__4 value of string variable name is Yilokyr
+__label__4 create a string variable named str and append "My Name" to str
+__label__5 initialize an empty integer variable named F
+__label__5 declare an empty variable with the name validity
+__label__6 declare an empty array named st_array
+__label__6 define array pep
+__label__7 build model using python
+__label__7 preferred programming language = C
+__label__8 referring to 5 neighbors
+__label__8 consider 10 neighbors
+__label__8 No of neighbors = 5st
+__label__9 clustering algorithm is K-means
+__label__9 use Decision Tree classifier to learn the mode
+__label__10 take my_class as the class
+__label__10 define variable clf and classify X_train y_train using Algorithm
+__label__11 use Pandas or similar kind of library
+__label__11 import library dataframe
+__label__12 import similar library to Numpy
+__label__12 import library multidimentional array
+__label__13 eliminate column1 and column2 from data set
+__label__13 hide attribute 1, attribute 2, attribute 3 , attribute 4 and  attribute 5 from learning
+__label__14 drop data in column10 and column15
+__label__14 ignore data points between 2 nd column and 5 th column
+__label__15 if not the the case,
+__label__15 in case, the given condition is not satisfied
+__label__16 terminate the program
+__label__16 close the application
+__label__16 finish ML program
+__label__16 quite algorithm
+__label__16 conclude steps
+__label__17 for temp in range(4, 8)
+__label__17 for x in range(7)
+__label__17 repeat the process for 96 iterations
+__label__18 iterate through each member in the array
+__label__18 iterate for each column in the dataset,
+__label__19 if result is false,
+__label__19 if the condition is not true:
+__label__20 if true,
+__label__20 if something
+__label__21 if man and nam are different
+__label__21 if the value of  variable X and the value of variable Y are not equals,
+__label__22 if ( any1  <  any2 ):
+__label__22 if e.errno is not greater than errno.EEXIST,
+__label__23 if any1 is equals to any2
+__label__23 if the value of X and the value of Y are exactly the same,
+__label__24 if van  is larger than car
+__label__24 if moon is greater than sun:
+__label__25 import some machine learning module
+__label__25 use similar kind of machine learning library to Scikit Learn
+__label__26 from sklearn import preprocessing
+__label__26 import library DataVisualization
+__label__27 refer to the uploaded data set
+__label__27 put the given data set in to a data frame
+__label__28 apply normalization for required columns
+__label__28 normalize uploaded dataset
+__label__29 print anything
+__label__29 show (result)
+__label__29 display the requested result on the screen
+__label__30 test set is 0.6 of data set
+__label__30 use 60% data for testing
+__label__31 use 60% data for training
+__label__31 declare a floating point variable called train_set and assign 0.078 to it
+__label__32 Apply algorithm
+__label__32 Start classification
+__label__33 white true
+__label__33 do infinitely
+__label__34 define variable le and instantiate label encoder
+__label__34 define variable scaler and assign standard scaler class
+__label__35 apply confusion matrix
+__label__35 calculate relevant confusion matrix
+__label__36 attributes are column 1 , column 2 and column 6
+__label__36 features = runs, wickets, no_of_100's, average, strke_rates
+__label__37 import library Multinomial Naive Bayes
+__label__37 import k-nearest neghbour library
+__label__38 numerize uploaded dataset
+__label__38 encode object type attributes as numeric
+__label__39 predict clf for new_datapoint
+__label__39 parse list_values to model and obtain predicted classes
+__label__40 remove datapoints that have NULL target_class from the dataframe and reassign dataframe
+__label__40 remove null data points in train set
+__label__41 replace Null values with last observation carried forawrd
+__label__41 replace empty values with the column mean and reassign dataframe
+__label__42 divide dataset in to training and testing sets
+__label__42 split dataframe feature set and target class
+__label__43 add element1 to element_list
+__label__43 append age, height, skills to the list named my_list
+__label__44 features to be normalized = name, age, place
+__label__44 normalize attribute 1, attribute 2, attribute 3 and attribute 5
+__label__45 convert categorical data in feature2 and feature5 to numerical data
+__label__45 columns to be numerized = 3, 4
+__label__46 escape from for loop
+__label__46 end of for loop
+__label__47 end of IF
+__label__47 conclude IF condition
+__label__48 break the while loop
+__label__48 conclude while loop

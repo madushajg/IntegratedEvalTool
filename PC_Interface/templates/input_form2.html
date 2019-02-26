@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="/static/css/forms.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% extends 'layout.html' %}
+{% include 'navigation_bar.html' %}
+
+{% block body %}
+ <style>
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    counter-reset: tableCount;
+}
+
+.counterCell:before {
+    content: counter(tableCount);
+    counter-increment: tableCount;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<h1>Source Code</h1>
+
+<div class="container">
+{#  <form action="sc" method="POST">#}
+{#    <label for="fname">Name</label>#}
+{#    <input type="text" id="username" name="username" placeholder="Your name..">#}
+{##}
+{##}
+{#    <label for="cs">Chipset</label>#}
+{#    <select id="cs" name="cs">#}
+{#      <option value="A11_Bionic">A11 Bionic</option>#}
+{#      <option value="Mediatek_MT6739">Mediatek_MT6739</option>#}
+{#      <option value="Qualcomm_SDM845_Snapdragon_845">Qualcomm</option>#}
+{#    </select>#}
+{#      <br/><br/>#}
+{#    <input type="submit" value="Submit">#}
+{#  </form>#}
+</div>
+
+
+<br/><br/>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var sPath = window.location.pathname;
+        var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+        $('a[href="'+ sPage +'"]').parent().addClass('active');
+    });
+</script>
+
+
+{% endblock %}
+
+

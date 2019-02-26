@@ -1,0 +1,48 @@
+Accuracy,N
+Append elements to a list,ER
+Assign Class instance to variable,ER
+Assign value to float variable,ER
+Assign value to integer variable,ER
+Assign value to String variable,ER
+Confusion Matrix,N
+Define a variable,ER
+Define Algorithm,DF
+Define an array,ER
+Define Class,ER
+Define data manipulation library,DF
+Define features,ER
+Define K in KNN,DF
+Define language,DF
+Define multidimensional array operator,DF
+Drop columns,ER
+Drop columns - Range,ER
+Else condition,DF
+End,N
+End of for loop,N
+End of IF,N
+End of while loop,N
+For Loop,DF
+ForEach Loop,ER
+IF condition - not,DF
+IF condition - simple,DF
+IF condition - statement (!=),DF
+IF condition - statement (<),DF
+IF condition - statement (=),DF
+IF condition - statement (>),DF
+import ML Algorithm,DF
+import ML Library,DF
+Import Specific Modules,DF
+Load dataset,DF
+Normalization-General,N
+Normalization-Specific,ER
+Numerization-General,N
+Numerization-Specific,ER
+Predict clf,ER
+Print,ER
+Remove Null Target Classes,N
+Replace NaN values,DF
+SplitDataset,N
+SplitDataset-Test,ER
+SplitDataset-Train,ER
+Start Algorithm,N
+While_Loop,DF
